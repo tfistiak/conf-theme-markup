@@ -682,7 +682,7 @@
       <div class="row text-white h-full benefits-bg-img">
         <!-- 1 -->
         <div
-          class="col-4 border-r border-opacity-10 border-r-body pr-16 pl-8 pb-10 h-full justify-end flex flex-col"
+          class="col-12 md:col-6 lg:col-4 border-r border-opacity-10 border-r-body xl:pr-16 pl-8 pb-10 lg:h-full justify-end flex flex-col"
         >
           <span
             ><svg
@@ -706,7 +706,7 @@
         </div>
         <!-- 2 -->
         <div
-          class="col-4 border-r border-opacity-10 border-r-body pr-16 pl-8 pb-10 h-full justify-end flex flex-col"
+          class="col-12 md:col-6 lg:col-4 border-r border-opacity-10 border-r-body xl:pr-16 pl-8 pb-10 lg:h-full justify-end flex flex-col"
         >
           <span
             ><svg
@@ -729,7 +729,7 @@
           </p>
         </div>
         <!-- 3 -->
-        <div class="col-4 pr-16 pl-8 pb-10 h-full justify-end flex flex-col">
+        <div class="col-12 md:col-6 lg:col-4 xl:pr-16 pl-8 pb-10 lg:h-full justify-end flex flex-col">
           <span
             ><svg
               width="48"
@@ -755,3 +755,31 @@
   </div>
 </section>
 <!-- end Key benefits section -->
+
+
+<!-- start blog section -->
+ <section>
+  <div class="container">
+    <div class="section-title">
+      <h1>Latest Articles</h1>
+      <a class="flex gap-x-3 items-center" href="/our-sponsors.html">
+        <span class="uppercase text-sm"> Read all blogs </span>
+        <span class="navigation-button-icon">
+          <i class="fa fa-arrow-right text-xs"></i>
+        </span>
+      </a>
+    </div>
+    <div class="row my-16 gap-y-8">
+      <div class="col-12 md:col-6 lg:col-4 md:border-r px-6 border-r-border dark:border-darkmode-border">
+        @@include('components/blog-card.html')
+      </div>
+      <div class="col-12 md:col-6 lg:col-4 px-6 lg:border-r  border-r-border dark:border-darkmode-border">
+        @@include('components/blog-card.html')
+      </div>
+      <div class="col-12 md:col-6 lg:col-4 px-6 ">
+        @@include('components/blog-card.html')
+      </div>
+    </div>
+  </div>
+ </section>
+<!-- end blog section -->
