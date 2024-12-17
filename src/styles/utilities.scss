@@ -1,0 +1,81 @@
+.bg-gradient {
+  @apply bg-gradient-to-b from-[rgba(249,249,249,1)] from-[0.53%] to-white to-[83.28%] dark:from-darkmode-theme-light dark:to-darkmode-body;
+}
+
+.rounded-sm {
+  @apply rounded-[4px];
+}
+.rounded {
+  @apply rounded-[6px];
+}
+.rounded-lg {
+  @apply rounded-[12px];
+}
+.rounded-xl {
+  @apply rounded-[16px];
+}
+
+.shadow {
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+}
+
+
+
+// banner title
+.banner-title{
+  font-size: 250px;
+  @apply  font-semibold text-dark dark:text-darkmode-dark;
+  @media screen and (max-width: 1664px) {
+    font-size: 220px;
+  }
+
+  @media screen and (max-width: 1540px) {
+    font-size: 190px;
+  }
+  @media screen and (max-width: 1280px) {
+    font-size: 150px;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 100px;
+  }
+  @media screen and (max-width: 776px) {
+    font-size: 80px;
+  }
+  @media screen and (max-width: 565px) {
+    font-size: 70px;
+  }
+  @media screen and (max-width: 440px) {
+    font-size: 50px;
+  }
+}
+.title-star{
+  svg{
+    width: 200px;
+    @apply fill-primary dark:fill-darkmode-primary inline-block mb-5 ;
+    @media screen and (max-width: 1664px) {
+      width: 170px;
+    }
+    @media screen and (max-width: 1540px) {
+      width: 150px;
+    }
+    @media screen and (max-width: 1280px) {
+      width: 110px;
+    }
+    @media screen and (max-width: 1024px) {
+      width: 70px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 60px;
+    }
+    @media screen and (max-width: 565px) {
+      width: 50px;
+    }
+    @media screen and (max-width: 440px) {
+      width: 40px;
+    }
+  }
+}
+
+.text-gold{
+  color: #EFBA5A;
+}
