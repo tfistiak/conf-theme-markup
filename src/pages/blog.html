@@ -5,10 +5,8 @@
     <div class="mt-20 mb-5">
       <span class="uppercase">// GET Tickets</span>
     </div>
-    <div class="section-title !pt-0">
-      <h1>Our Latest Blogs & Articles</h1>
-     <p>Join us for an as we unveil the most exciting highlights at our upcoming designer event.</p>
-    </div>
+    @@include("page-header.html",{ "title": "Our Latest Blogs & Articles" })
+   
     <div class="row mt-20 border-b  border-b-border dark:border-darkmode-border pb-10">
       <div class="mb-14 col-12 md:col-6 lg:col-4 md:border-r md:border-r-border dark:border-darkmode-border">
         @@include("components/blog-card.html")
