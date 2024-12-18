@@ -24,7 +24,7 @@
 .social-icons {
   @apply space-x-0 mr-5;
   li {
-    @apply inline-block;
+    @apply hidden sm:inline-block;
     a {
       @apply dark:text-white flex h-7 w-7 items-center justify-center rounded text-center leading-9 text-dark;
       svg {
@@ -67,11 +67,11 @@
 .section-title {
   @apply flex flex-col xl:flex-row justify-center xl:justify-between items-center xl:items-end pt-16 pb-14 border-b border-b-border dark:border-darkmode-border;
   h1 {
-    @apply text-5xl md:text-7xl uppercase xl:w-3/6 text-center xl:text-left mb-5 xl:mb-0;
+    @apply text-3xl sm:text-5xl md:text-7xl uppercase xl:w-3/6 text-center xl:text-left mb-5 xl:mb-0;
   }
 
   p {
-    @apply text-lg font-thin xl:w-4/12 text-dark-gray text-center xl:text-right;
+    @apply sm:text-lg font-thin xl:w-4/12 text-dark-gray text-center xl:text-right;
   }
   div {
     p {
