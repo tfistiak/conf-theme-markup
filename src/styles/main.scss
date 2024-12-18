@@ -170,3 +170,10 @@
 .active-table{
   @apply text-dark dark:text-white;
 }
+
+.cto-bg{
+  background-image: url('/images/cto-bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
