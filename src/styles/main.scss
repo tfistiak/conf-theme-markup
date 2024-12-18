@@ -70,9 +70,9 @@
   p {
     @apply text-lg font-thin xl:w-4/12 text-dark-gray text-center xl:text-right;
   }
-  div{
-    p{
-      @apply w-full
+  div {
+    p {
+      @apply w-full;
     }
   }
 }
@@ -138,16 +138,31 @@
 // footer action button
 .footer-action-btn {
   @apply border border-border dark:border-darkmode-border rounded-full py-4 uppercase text-center text-xl transition-all duration-300  leading-8 hover:bg-theme-dark hover:text-theme-light;
-  svg{
-    @apply hover:fill-theme-light
+  svg {
+    @apply hover:fill-theme-light;
   }
 }
 
-.benefits-bg-img{
+.benefits-bg-img {
   width: 100%;
   height: 750px;
-  background-image:  linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("/images/benefits-bg.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("/images/benefits-bg.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+// sponsor logo
+.sponsor-logo {
+  @apply px-6 py-8 rounded-sm bg-theme-light dark:bg-darkmode-theme-light;
+  div {
+    @apply mt-14;
+    h3 {
+      @apply text-2xl text-dark dark:text-darkmode-text uppercase mb-2;
+    }
+    p {
+      @apply font-light text-light dark:text-darkmode-dark-gray;
+    }
+  }
 }
