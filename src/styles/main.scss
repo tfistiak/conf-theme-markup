@@ -16,6 +16,9 @@
 @layer utilities {
   @include meta.load-css("utilities");
 }
+.active-page{
+  @apply text-primary;
+}
 
 // social icons
 .social-icons {

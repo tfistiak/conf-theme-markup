@@ -38,7 +38,7 @@
 
 
 })();
-
+// table of contents
 const tableOfContentItems = document.querySelectorAll(".table-of-contents li");
 tableOfContentItems.forEach((item) => {
 
@@ -50,3 +50,12 @@ tableOfContentItems.forEach((item) => {
   })
 })
 
+// make active page
+const navMenuItems = document.querySelectorAll("#nav-menu li a");
+navMenuItems.forEach((item) => {
+  let urlPath = window.location.pathname
+  if (urlPath === item.pathname) {
+item.classList.add("active-page")
+  }
+  
+})
