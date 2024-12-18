@@ -166,3 +166,7 @@
     }
   }
 }
+
+.active-table{
+  @apply text-dark dark:text-white;
+}
