@@ -8,7 +8,7 @@
       <div class="col-12 my-20">
         <div class="row">
           <div
-            class="col-5 border-r border-r-border dark:border-darkmode-border pr-6"
+            class="col-12 xl:col-5 xl:border-r xl:border-r-border dark:border-darkmode-border xl:pr-6 mb-10 xl:mb-0"
           >
             <img
               src="/images/jhon-williams.png"
@@ -16,9 +16,9 @@
               class="w-full h-full object-cover"
             />
           </div>
-          <div class="col-7 pl-6">
+          <div class="col-12 xl:col-7 pl-6">
             <h2 class="uppercase text-5xl text-normal">Who is john...</h2>
-            <div class="mt-8 text-light font-light w-9/12">
+            <div class="mt-8 text-light font-light md:w-9/12">
               <p class="mb-8">
                 In the heart of the bustling city, a vibrant community thrives,
                 filled with creativity and innovation. The streets are alive
@@ -33,7 +33,7 @@
               </p>
             </div>
             <div
-              class="mt-8 dark:text-[#DDDDDD] w-9/12 font-light border-b border-b-border dark:border-darkmode-border"
+              class="mt-8 dark:text-[#DDDDDD] md:w-9/12 font-light border-b border-b-border dark:border-darkmode-border"
             >
               <span class="inline-block"
                 ><svg
@@ -56,15 +56,19 @@
                 wafting through the air.
               </p>
             </div>
-            <div class="py-7 flex justify-between items-center w-9/12">
+            <div class="py-7 flex justify-between items-center md:w-9/12">
               <p class="font-light">Follow socials :</p>
               <ul class="flex gap-2">
-                <li class="py-1 px-2 border border-border dark:border-darkmode-border rounded-full flex justify-center items-center text-sm border-opacity-50">
+                <li
+                  class="py-1 px-2 border border-border dark:border-darkmode-border rounded-full flex justify-center items-center text-sm border-opacity-50"
+                >
                   <a href="#">
                     <i class="fa-brands fa-facebook"></i>
                   </a>
                 </li>
-                <li class="py-1 px-2 border border-border dark:border-darkmode-border rounded-full justify-center items-center text-sm border-opacity-50">
+                <li
+                  class="py-1 px-2 border border-border dark:border-darkmode-border rounded-full justify-center items-center text-sm border-opacity-50"
+                >
                   <a href="#">
                     <i class="fa-brands fa-twitter"></i>
                   </a>
@@ -74,6 +78,72 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="row">
+      <!-- Start speaker card -->
+      <section class="border-t border-t-border dark:border-darkmode-border">
+        <div class="container">
+          <!-- Title -->
+          <div class="row pt-16 pb-14">
+            <div
+              class="col-12 xl:col-4 xl:pr-10 text-center xl:text-left mb-10 xl:mb-0 flex flex-col justify-center xl:justify-stretch items-center xl:items-stretch"
+            >
+              <h1 class="text-5xl md:text-7xl uppercase mb-5">More speakers</h1>
+              <p class="text-lg font-light text-dark-gray mb-10">
+                Meet our inspiring speakers who ignite ideas and foster
+                connections. They bring expertise and passion to every
+                conversation.
+              </p>
+              <a class="flex gap-x-3 items-center" href="/speakers.html">
+                <span class="uppercase text-sm">View all speakers </span>
+                <span class="navigation-button-icon">
+                  <i class="fa fa-arrow-right text-xs"></i>
+                </span>
+              </a>
+            </div>
+
+            <div class="col-12 xl:col-8">
+              <div
+                class="row xl:border-l xl:border-l-border dark:border-darkmode-border px-7"
+              >
+                <!-- speaker-1 -->
+                <div
+                  class="col-12 lg:col-6 mb-10 lg:border-b lg:border-b-border dark:border-darkmode-border pb-10"
+                >
+                  <div
+                    class="lg:border-r lg:border-r-border dark:border-darkmode-border pr-7"
+                  >
+                    @@include("components/speaker-card.html")
+                  </div>
+                </div>
+                <!-- speaker-2 -->
+                <div
+                  class="col-12 lg:col-6 mb-10 lg:border-b lg:border-b-border dark:border-darkmode-border pb-10"
+                >
+                  <div class="pr-7">
+                    @@include("components/speaker-card.html")
+                  </div>
+                </div>
+                <!-- speaker-3 -->
+                <div class="col-12 lg:col-6 mb-10">
+                  <div
+                    class="lg:border-r lg:border-r-border dark:border-darkmode-border pr-7"
+                  >
+                    @@include("components/speaker-card.html")
+                  </div>
+                </div>
+                <!-- speaker-4 -->
+                <div class="col-12 lg:col-6 mb-10">
+                  <div class="pr-7">
+                    @@include("components/speaker-card.html")
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End speaker card -->
     </div>
   </div>
 </section>
