@@ -36,7 +36,14 @@
     });
   });
 
-
+ // ########################## Accordion ##########################
+ const accordion = document.querySelectorAll("[data-accordion]");
+ accordion.forEach((header) => {
+   header.addEventListener("click", () => {
+     const accordionItem = header.parentElement;
+     accordionItem.classList.toggle("active");
+   });
+ });
 })();
 // table of contents
 const tableOfContentItems = document.querySelectorAll(".table-of-contents li");
