@@ -1,5 +1,5 @@
 <!-- Banner -->
-<section class="section pt-2 sm:pt-14">
+<section>
   <div class="container">
     <!-- Hero title start  -->
     <div class="row justify-center">
@@ -24,7 +24,7 @@
       <!-- {{/* Tickets section start */}} -->
       <div class="col-12">
         <div
-          class="flex justify-between items-center bg-theme-dark py-5 px-3 gap-2 flex-col md:flex-row"
+          class="flex justify-between items-center bg-theme-dark py-5 px-3 gap-2 flex-col 2xl:flex-row"
         >
           <div class="flex gap-1">
             <span>
@@ -92,12 +92,12 @@
       class="row pl-0 mt-20 border-t border-t-border dark:border-darkmode-border flex-col xl:flex-row"
     >
       <!-- left section -->
-      <div class="col-12 xl:col-6 pt-14">
+      <div class="col-12 xl:col-6 pt-20 xl:border-r xl:border-r-border dark:border-darkmode-border">
         <div class="pr-0 xl:pr-16">
           <h2
-            class="text-5xl sm:text-7xl md:text-[80px] 2xl:text-[110px] uppercase sm:leading-[65px] md:leading-[110px] font-[500] mb-3 sm:mb-2"
+            class="text-h3 sm:text-h1-sm md:text-h1 2xl:text-h1-xl uppercase leading-tight font-[500] mb-3 sm:mb-2"
           >
-            step into THE design
+            Step into THE design
           </h2>
           <div class="flex items-center">
             <div class="flex">
@@ -113,7 +113,7 @@
             </div>
 
             <p
-              class="ml-4 text-5xl sm:text-7xl md:text-[80px] 2xl:text-[110px] uppercase sm:leading-[80px] md:leading-[110px] font-[500]"
+              class="ml-4 text-h3 sm:text-h1-sm md:text-h1 2xl:text-h1-xl uppercase leading-tight font-[500]"
             >
               CLOUD
             </p>
@@ -169,7 +169,7 @@
           <h3 class="text-2xl font-normal uppercase mb-6">
             Missions & Visions
           </h3>
-          <p class="font-light uppercase text-sm leading-6">
+          <p class="font-light uppercase leading-6 text-light">
             Driving impact through purpose, our great mission and vision define
             the long road for the meaningful growth and innovation.
           </p>
@@ -238,21 +238,21 @@
                 />
               </span>
             </div>
-            <h3 class="text-3xl uppercase font-thin mt-9">20 Speakers</h3>
-            <p class="font-thin text-sm uppercase mt-3">
+            <h3 class="text-h5 uppercase font-thin mt-9">20 Speakers</h3>
+            <p class="font-light text-light uppercase mt-3">
               Driving impact through purpose.
             </p>
           </div>
 
           <!-- highlight -->
           <div
-            class="col-12 md:col-6 p-8 relative bg-[#dbdbdb] dark:bg-[#202020] overflow-hidden mt-4 md:mt-0"
+            class="col-12 md:col-6 p-8 relative overflow-hidden mt-4 md:mt-0"
           >
             <!-- shap -->
             <img
-              src="/images/union-shap.png"
+              src="/images/cto-bg.png"
               alt="shap"
-              class="absolute top-3 right-0 width-full h-full "
+              class="absolute top-40 right-20 w-full h-full object-cover  z-0"
             />
 
             <span>
@@ -267,13 +267,13 @@
                 <circle cx="36" cy="12" r="12" fill="white" />
               </svg>
             </span>
-            <h3 class="text-3xl font-thin uppercase mt-6">
+            <h3 class="text-h5 font-thin uppercase mt-6">
               Realtime updates through socials.
             </h3>
             <div class="flex mt-20 gap-6">
               <div>
                 <span class="uppercase text-dark-gray">#conf2024</span>
-                <p class="uppercase text-dark-gray font-thin">
+                <p class="uppercase text-dark-gray font-light">
                   experience Live stream of the event in time
                 </p>
               </div>
@@ -294,11 +294,11 @@
 <!-- /Banner -->
 
 <!-- Features section start -->
-<section>
+<section class="section">
   <div class="container">
     <!-- Title -->
     <div class="section-title">
-      <h1>04 things to expect in Conf</h1>
+      <h1>All things to expect in Conf</h1>
       <p>
         Join us for an as we unveil the most exciting highlights at our upcoming
         designer event.
@@ -306,20 +306,20 @@
     </div>
 
     <!-- Features -->
-    <div class="row py-14">
-      <div class="col-12 xl:col-4 mb-10 xl:mb-0">
+    <div class="row py-14 border-b  border-b-border dark:border-darkmode-border">
+      <div class="col-12 xl:col-5 mb-10 xl:mb-0 xl:pr-12">
         <img
           src="/images/feature_image.png"
           alt="feature image"
-          class="w-full"
+          class="w-full xl:sticky xl:top-32"
         />
       </div>
       <div
-        class="col-12 xl:col-8 xl:border-l xl:border-l-border dark:border-darkmode-border pl-5 xl:pl-12"
+        class="col-12 xl:col-7 xl:border-l xl:border-l-border dark:border-darkmode-border pl-4 xl:pl-16"
       >
         <!-- 1 feature -->
         <div
-          class="row pb-10 border-b border-b-border dark:border-darkmode-border py-10"
+          class="row pb-10 border-b border-b-border dark:border-darkmode-border"
         >
           <div class="col-12 sm:col-4 md:col-6 p-0 mb-4 sm:mb-0 ml-3 sm:ml-0">
             <h3 class="uppercase text-xl md:text-2xl md:w-7/12">
@@ -418,18 +418,19 @@
 <!-- /Features section end -->
 
 <!-- Start Ticket section -->
-<section>@@include("components/tickets.html")</section>
+<section class="section">@@include("components/tickets.html")</section>
 <!-- End ticket section -->
 
 <!-- Start speaker card -->
-<section>
+<section class="section">
   <div class="container">
-    <!-- Title -->
-    <div class="row pt-16 pb-14">
+    <div class="row pb-14 border-b border-b-border dark:border-darkmode-border">
+      <!-- Title -->
       <div
-        class="col-12 xl:col-4 xl:pr-10 text-center xl:text-left mb-10 xl:mb-0 flex flex-col justify-center xl:justify-stretch items-center xl:items-stretch"
+        class="col-12 xl:col-4 xl:pr-10 text-center xl:text-left mb-10 xl:mb-0 flex flex-col justify-center xl:justify-stretch items-center xl:items-stretch "
       >
-        <h1 class="text-5xl md:text-7xl uppercase mb-5">our speakers</h1>
+      <div class="xl:sticky xl:top-32 2xl:pr-10">
+        <h1 class="text-h3 md:text-h1-sm uppercase mb-5 leading-tight">our speakers</h1>
         <p class="text-lg font-light text-dark-gray mb-10">
           Meet our inspiring speakers who ignite ideas and foster connections.
           They bring expertise and passion to every conversation.
@@ -440,6 +441,8 @@
             <i class="fa fa-arrow-right text-xs"></i>
           </span>
         </a>
+      </div>
+      
       </div>
 
       <div class="col-12 xl:col-8">
@@ -482,7 +485,7 @@
 <!-- End speaker card -->
 
 <!-- start events section -->
- <section>
+ <section class="section">
   <div class="container">
     <div class="section-title">
       <h1>3 day agenda  with sessions</h1>
@@ -499,7 +502,7 @@
 <!-- end events section -->
 
 <!-- Start sponsors section -->
-<section>
+<section class="section">
   <div class="container border-b border-b-border dark:border-darkmode-border">
     <div class="section-title mb-10">
       <h1>Our Sponsors</h1>
@@ -512,7 +515,7 @@
       </a>
     </div>
     <div class="row mb-10">
-      <div class="col-4 md:col-3 lg:col-2 g-4">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-1.png"
@@ -526,7 +529,7 @@
           />
         </div>
       </div>
-      <div class="col-4 md:col-3 lg:col-2 g-4">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-2.png"
@@ -540,7 +543,7 @@
           />
         </div>
       </div>
-      <div class="col-4 md:col-3 lg:col-2 g-4">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-3.png"
@@ -554,7 +557,7 @@
           />
         </div>
       </div>
-      <div class="col-4 md:col-3 lg:col-2 g-4">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-4.png"
@@ -568,7 +571,7 @@
           />
         </div>
       </div>
-      <div class="col-4 md:col-3 lg:col-2 g-4">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-5.png"
@@ -582,7 +585,7 @@
           />
         </div>
       </div>
-      <div class="col-4 md:col-3 lg:col-2 g-4">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-6.png"
@@ -596,7 +599,7 @@
           />
         </div>
       </div>
-      <div class="col-4 md:col-3 lg:col-2 g-4">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-7.png"
@@ -610,7 +613,7 @@
           />
         </div>
       </div>
-      <div class="col-4 md:col-3 lg:col-2 g-4">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-8.png"
@@ -624,7 +627,7 @@
           />
         </div>
       </div>
-      <div class="col-4 md:col-3 lg:col-2 g-4">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-9.png"
@@ -638,7 +641,7 @@
           />
         </div>
       </div>
-      <div class="col-4 md:col-3 lg:col-2 g-4">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-10.png"
@@ -652,7 +655,7 @@
           />
         </div>
       </div>
-      <div class="col-4 md:col-3 lg:col-2 g-4">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-11.png"
@@ -666,7 +669,7 @@
           />
         </div>
       </div>
-      <div class="col-4 md:col-3 lg:col-2 g-4">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-12.png"
@@ -686,7 +689,7 @@
 <!-- end sponsors section -->
 
 <!-- Start Key benefits section -->
-<section>
+<section class="section">
   <div class="container">
     <div class="section-title">
       <h1>Key benefits</h1>
@@ -695,7 +698,7 @@
         help brands visual.
       </p>
     </div>
-    <div class="pt-16 pb-14">
+    <div class="pt-16">
       <div class="row text-white h-full benefits-bg-img">
         <!-- 1 -->
         <div
@@ -716,7 +719,7 @@
           <h3 class="uppercase text-2xl font-normal mt-6 mb-5">
             Exclusive Networking.
           </h3>
-          <p class="uppercase font-light text-[16px]">
+          <p class="uppercase font-light">
             Meet and connect directly with leading designers and potential
             collaborators with other desingers.
           </p>
@@ -740,7 +743,7 @@
           <h3 class="uppercase text-2xl font-normal mt-6 mb-5">
             Immersive Experience.
           </h3>
-          <p class="uppercase font-light text-[16px]">
+          <p class="uppercase font-light ">
             Discover innovative trends and gain creative insights through
             interactive exhibits and immerse yourselves.
           </p>
@@ -762,7 +765,7 @@
           <h3 class="uppercase text-2xl font-normal mt-6 mb-5">
             Enhanced Brand Visibility.
           </h3>
-          <p class="uppercase font-light text-[16px]">
+          <p class="uppercase font-light ">
             Present your work and boost brand awareness among a targeted and
             engaged audience.
           </p>
@@ -775,7 +778,7 @@
 
 
 <!-- start blog section -->
- <section>
+ <section class="section pb-20">
   <div class="container">
     <div class="section-title">
       <h1>Latest Articles</h1>
@@ -786,14 +789,14 @@
         </span>
       </a>
     </div>
-    <div class="row my-16 gap-y-8">
-      <div class="col-12 md:col-6 lg:col-4 md:border-r px-6 border-r-border dark:border-darkmode-border">
+    <div class="row my-16 gap-y-8 ">
+      <div class="col-12 md:col-6 lg:col-4 md:border-r px-8 border-r-border dark:border-darkmode-border">
         @@include('components/blog-card.html')
       </div>
-      <div class="col-12 md:col-6 lg:col-4 px-6 lg:border-r  border-r-border dark:border-darkmode-border">
+      <div class="col-12 md:col-6 lg:col-4 px-8 lg:border-r  border-r-border dark:border-darkmode-border">
         @@include('components/blog-card.html')
       </div>
-      <div class="col-12 md:col-6 lg:col-4 px-6 ">
+      <div class="col-12 md:col-6 lg:col-4 px-8 ">
         @@include('components/blog-card.html')
       </div>
     </div>

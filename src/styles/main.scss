@@ -39,13 +39,13 @@
   li {
     @apply inline-block transition-all duration-500;
     :hover {
-      @apply bg-primary dark:bg-darkmode-primary;
+      @apply bg-primary dark:bg-darkmode-primary ;
       a {
         @apply text-white;
       }
     }
     a {
-      @apply dark:text-white flex h-12 w-12 items-center justify-center rounded-full text-center leading-9 text-dark border border-border dark:border-darkmode-border border-opacity-20;
+      @apply dark:text-white flex h-12 w-12 items-center justify-center rounded-full text-center leading-9 text-dark border border-border dark:border-darkmode-border border-opacity-20  hover:border-primary;
 
       svg {
         @apply h-6 w-6;
@@ -54,20 +54,13 @@
   }
 }
 
-// swiper pagination
-.swiper-pagination-bullet {
-  @apply bg-theme-light dark:bg-darkmode-theme-light h-2.5 w-2.5 opacity-100 mx-1.5 #{!important};
 
-  &-active {
-    @apply bg-primary dark:bg-darkmode-primary h-4 w-4 #{!important};
-  }
-}
 
 // section title
 .section-title {
-  @apply flex flex-col xl:flex-row justify-center xl:justify-between items-center xl:items-end pt-16 pb-14 border-b border-b-border dark:border-darkmode-border;
+  @apply flex flex-col xl:flex-row justify-center xl:justify-between items-center xl:items-end pb-14 border-b border-b-border dark:border-darkmode-border;
   h1 {
-    @apply text-3xl sm:text-5xl md:text-7xl uppercase xl:w-3/6 text-center xl:text-left mb-5 xl:mb-0;
+    @apply text-h5 sm:text-h3 md:text-7xl uppercase xl:w-6/12 text-center xl:text-left mb-5 xl:mb-0 leading-tight md:leading-[85px];
   }
 
   p {
@@ -89,13 +82,13 @@
       @apply text-2xl uppercase mb-2;
     }
     p {
-      @apply text-lg font-thin;
+      @apply text-lg font-light text-light;
     }
   }
   .ticket-item-body {
     @apply flex flex-col;
     h2 {
-      @apply text-7xl uppercase my-10 font-light;
+      @apply text-h1 uppercase my-6 font-light;
       span {
         @apply text-sm font-light;
       }
@@ -140,10 +133,8 @@
 }
 // footer action button
 .footer-action-btn {
-  @apply border border-border dark:border-darkmode-border rounded-full py-4 uppercase text-center text-xl transition-all duration-300  leading-8 hover:bg-theme-dark hover:text-theme-light;
-  svg {
-    @apply hover:fill-theme-light;
-  }
+  @apply border border-border dark:border-darkmode-border rounded-full py-4 uppercase text-center text-xl transition-all duration-300  leading-8 hover:bg-primary ;
+  
 }
 
 .benefits-bg-img {

@@ -54,6 +54,7 @@ module.exports = {
         border: theme.colors.default.theme_color.border,
         "theme-light": theme.colors.default.theme_color.theme_light,
         "theme-dark": theme.colors.default.theme_color.theme_dark,
+        "theme-dark-gray": theme.colors.default.theme_color.theme_dark_gray,
         "dark-gray": theme.colors.default.text_color.dark_gray,
         darkmode: {
           text: theme.colors.darkmode.text_color.default,
@@ -71,6 +72,8 @@ module.exports = {
       fontSize: {
         base: font_base + "px",
         "base-sm": font_base * 0.8 + "px",
+        'h1-xl': h1 * 1.45 + "rem",
+        'h1-lg': h1 * 1.2 + "rem",
         h1: h1 + "rem",
         "h1-sm": h1 * 0.9 + "rem",
         h2: h2 + "rem",
