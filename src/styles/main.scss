@@ -27,8 +27,8 @@
     @apply hidden sm:inline-block;
     a {
       @apply dark:text-white flex h-7 w-7 items-center justify-center rounded text-center leading-9 text-dark;
-      svg {
-        @apply h-5 w-5;
+      i {
+        @apply text-xl;
       }
     }
   }
@@ -60,11 +60,11 @@
 .section-title {
   @apply flex flex-col xl:flex-row justify-center xl:justify-between items-center xl:items-end pb-14 border-b border-b-border dark:border-darkmode-border;
   h2 {
-    @apply text-h5 sm:text-h3 md:text-7xl uppercase xl:w-6/12 text-center xl:text-left mb-5 xl:mb-0 leading-tight md:leading-[85px];
+    @apply text-h5 sm:text-h3 md:text-h1-sm uppercase xl:w-6/12 text-center xl:text-left mb-5 xl:mb-0 leading-tight md:leading-[85px];
   }
 
   p {
-    @apply sm:text-lg font-thin xl:w-4/12 text-dark-gray text-center xl:text-right;
+    @apply sm:text-lg font-light xl:w-4/12 text-light text-center xl:text-right;
   }
   div {
     p {
