@@ -62,9 +62,9 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <div>
-                  <p>+775 233 5645</p>
-                  <p>eventconf@support.com</p>
+                <div class="flex flex-col">
+                  <a href="tel:+775 233 5645">+775 233 5645</a>
+                  <a href="mailto:W5a2p@example.com"  >eventconf@support.com</a>
                 </div>
               </div>
               <div class="flex items-center gap-3 font-light">
@@ -87,7 +87,7 @@
                 </svg>
 
                 <div>
-                  <p>9675 Grant Ave.</p>
+                  <p>9675 Grant Ave.</a>
                   <p>Chicago Heights, IL 60411</p>
                 </div>
               </div>
@@ -117,6 +117,7 @@
                 >
                   <input
                     type="email"
+                    required
                     placeholder="Email*"
                     class="bg-transparent focus:outline-none focus:border-none focus:shadow-none focus:ring-0 border-none border-b focus:outline-0 w-full placeholder:text-light pl-0 placeholder:font-light"
                   />
@@ -127,7 +128,8 @@
                   class="border-b border-b-border dark:border-darkmode-border"
                 >
                   <input
-                    type="text"
+                    type="tel"
+                    required
                     placeholder="Phone*"
                     class="bg-transparent border-none border-b focus:outline-none focus:border-none focus:shadow-none focus:ring-0 w-full placeholder:text-light pl-0 placeholder:font-light focus:border-b"
                   />
@@ -139,6 +141,7 @@
                 >
                   <input
                     type="text"
+                    required
                     placeholder="Subject*"
                     class="bg-transparent focus:outline-none focus:border-none focus:shadow-none focus:ring-0 border-none border-b focus:outline-0 w-full placeholder:text-light pl-0 placeholder:font-light"
                   />
@@ -151,6 +154,7 @@
                 >
                   <input
                     type="text"
+                    required
                     placeholder="CountryRegion*"
                     class="bg-transparent focus:outline-none focus:border-none focus:shadow-none focus:ring-0 border-none border-b focus:outline-0 w-full placeholder:text-light pl-0 placeholder:font-light"
                   />
@@ -162,6 +166,7 @@
                 >
                   <textarea
                     rows="1"
+                    required
                     placeholder="Message*"
                     class="bg-transparent focus:outline-none focus:border-none focus:shadow-none focus:ring-0 border-none border-b focus:outline-0 w-full placeholder:text-light resize-none pl-0 placeholder:font-light pb-12"
                   ></textarea>
