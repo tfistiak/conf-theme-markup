@@ -1,8 +1,6 @@
-<section>
+<section class="section">
   <div class="container">
-    <div
-      class="pt-28 pb-14 border-b border-b-border dark:border-darkmode-border"
-    >
+    <div class="pb-14 border-b border-b-border dark:border-darkmode-border">
       <div class="flex gap-3 uppercase items-center mb-4 font-light">
         <span>James C.</span>
         <span
@@ -60,7 +58,7 @@
             class="lg:col-8 lg:border-l lg:border-l-border dark:border-darkmode-border pl-7"
           >
             <!-- crafting -->
-            <div id="crafting">
+            <div id="crafting" class="scroll-m-32">
               <h2 class="text-h4 xl:text-h3 mb-6 uppercase leading-tight">
                 Crafting Exceptional Digital all Experiences Across All through
                 Platforms
@@ -106,7 +104,7 @@
               />
             </div>
             <!-- creating -->
-            <div id="creating" class="mt-16">
+            <div id="creating" class="mt-16 scroll-m-32">
               <h2 class="text-h4 xl:text-h3 mb-6 uppercase leading-tight">
                 Crafting Creating Outstanding Online Experiences for Everyone.
               </h2>
@@ -213,19 +211,20 @@
               </div>
             </div>
             <!-- leave comment -->
-            <div id="comment" class="mt-4">
+            <div id="comment" class="mt-4 scroll-m-32">
               <h3 class="uppercase text-h4 mb-4">Leave a Comment</h3>
               <p class="text-light font-light">
                 Your email address will not be published. Required fields are
                 marked
               </p>
               <form action="#" class="row mt-2 gy-4">
-                <div class="col-6 ">
+                <div class="col-6">
                   <div
                     class="border-b border-b-border dark:border-darkmode-border"
                   >
                     <input
                       type="text"
+                      required
                       placeholder="Name*"
                       class="bg-transparent border-none border-b focus:outline-none focus:border-none focus:shadow-none focus:ring-0 w-full placeholder:uppercase placeholder:text-light pl-0 placeholder:font-light"
                     />
@@ -237,25 +236,34 @@
                   >
                     <input
                       type="email"
+                      required
                       placeholder="Email*"
                       class="bg-transparent focus:outline-none focus:border-none focus:shadow-none focus:ring-0 border-none border-b focus:outline-0 w-full placeholder:uppercase placeholder:text-light pl-0 placeholder:font-light"
                     />
                   </div>
                 </div>
-                <div class="col-12 ">
+                <div class="col-12">
                   <div
                     class="border-b border-b-border dark:border-darkmode-border"
                   >
-                  <textarea rows="1"  placeholder="Message*"
-                  class="bg-transparent focus:outline-none focus:border-none focus:shadow-none focus:ring-0 border-none border-b focus:outline-0 w-full placeholder:uppercase placeholder:text-light resize-none pl-0 placeholder:font-light"></textarea>
-                  
+                    <textarea
+                      rows="1"
+                      required
+                      placeholder="Message*"
+                      class="bg-transparent focus:outline-none focus:border-none focus:shadow-none focus:ring-0 border-none border-b focus:outline-0 w-full placeholder:uppercase placeholder:text-light resize-none pl-0 placeholder:font-light"
+                    ></textarea>
                   </div>
                 </div>
                 <div class="col-12 flex gap-2 items-center text-sm font-light">
-                  <input type="checkbox"> <p>Save my information for the next comment</p>
+                  <input type="checkbox" />
+                  <p>Save my information for the next comment</p>
                 </div>
                 <div class="col-12 mt-20">
-                  <button class="text-sm bg-light py-4 px-8 uppercase text-white">Leave a Comment</button>
+                  <button
+                    class="text-sm bg-light py-4 px-8 uppercase text-white"
+                  >
+                    Leave a Comment
+                  </button>
                 </div>
               </form>
             </div>

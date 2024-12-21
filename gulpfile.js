@@ -75,14 +75,14 @@ function styles() {
 }
 
 // pages
-function pages() {
+function pages() {  
   return gulp
     .src(path.src.pages)
     .pipe(
       wrapper({
         header:
-          "<!DOCTYPE html>\n<html lang=\"zxx\">\n@@include('head.html')\n<body>\n<main>\n@@include('header.html')",
-        footer:
+          "<!DOCTYPE html>\n<html lang=\"zxx\">\n@@include('head.html')\n<body>\n<main>\n@@include('header.html')\n",
+          footer:
           node_env === "dev"
             ? "@@include('components/tw-size-indicator.html')\n@@include('footer.html')\n</main>\n</body>\n</html>"
             : "@@include('footer.html')\n</main>\n</body>\n</html>",
