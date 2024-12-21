@@ -84,7 +84,7 @@ function pages() {
           "<!DOCTYPE html>\n<html lang=\"zxx\">\n@@include('head.html')\n<body>\n<main>\n@@include('header.html')",
         footer:
           node_env === "dev"
-            ? "@@include('components/tw-size-indicator.html')\n @@include('footer.html')\n</body>\n</html>"
+            ? "@@include('components/tw-size-indicator.html')\n@@include('footer.html')\n</main>\n</body>\n</html>"
             : "@@include('footer.html')\n</main>\n</body>\n</html>",
       }),
     )
@@ -96,7 +96,6 @@ function pages() {
     .pipe(
       template({
         fontPrimary: theme.fonts.font_family.primary,
-        fontSecondary: theme.fonts.font_family.secondary,
       }),
     )
     .pipe(comments(headerComments))

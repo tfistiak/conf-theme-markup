@@ -66,3 +66,12 @@ item.classList.add("active-page")
   }
   
 })
+
+// solve nav responsive issue 1024px
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 1024) {
+    document.querySelector("#nav-menu").classList.add("lg:!flex");
+
+  }
+});
+

@@ -34,8 +34,8 @@ input#nav-toggle:checked ~ #nav-menu {
 
 
 .nav-link {
-  @apply  hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary block p-3 cursor-pointer font-normal transition lg:px-2 lg:py-3;
-}
+  @apply  hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary block p-3 cursor-pointer font-normal transition lg:px-2 lg:py-3 text-sm xl:text-base;
+} 
 
 
 .nav-dropdown {
@@ -51,7 +51,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .nav-dropdown-link {
-  @apply block py-1 text-dark transition hover:text-primary dark:text-darkmode-text dark:hover:text-darkmode-primary;
+  @apply block py-1 text-dark transition hover:text-primary dark:text-darkmode-text dark:hover:text-darkmode-primary text-sm xl:text-base;
 }
 
 //theme-switcher
