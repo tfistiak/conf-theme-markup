@@ -72,7 +72,6 @@ navMenuItems.forEach((item) => {
 window.addEventListener("resize", () => {
   if (window.innerWidth > 1024) {
     document.querySelector("#nav-menu").classList.add("lg:!flex");
-
   }
 });
 
