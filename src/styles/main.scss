@@ -72,12 +72,10 @@
     }
   }
 }
-
-// ticket item
 .ticket-item {
-  @apply rounded-sm p-9;
+  @apply flex flex-col rounded-sm p-9 h-full; /* Flexbox layout */
   .ticket-item-header {
-    @apply flex flex-col;
+    @apply flex flex-col; /* Header stays at the top */
     h3 {
       @apply text-2xl uppercase mb-2;
     }
@@ -86,7 +84,7 @@
     }
   }
   .ticket-item-body {
-    @apply flex flex-col;
+    @apply flex-grow flex flex-col mb-8;
     h2 {
       @apply text-h2 sm:text-h1-sm 2xl:text-h1 uppercase my-6 font-light;
       span {
@@ -95,20 +93,21 @@
     }
     ul {
       li {
-        @apply flex items-center mb-2 text-lg font-light;
+        @apply flex mb-2 text-lg font-light;
         svg {
-          @apply mr-2;
+          @apply mr-2 mt-1;
         }
       }
     }
   }
   .ticket-item-footer {
-    @apply flex justify-center items-center mt-10;
+    @apply mt-auto flex justify-center items-center; /* Footer pushed to the bottom */
     a {
       @apply rounded-full w-full py-4 text-center font-normal text-sm uppercase;
     }
   }
 }
+
 // speaker card
 .speaker-card {
   @apply flex flex-col;

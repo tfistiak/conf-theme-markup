@@ -36,15 +36,16 @@
     });
   });
 
- // ########################## Accordion ##########################
- const accordion = document.querySelectorAll("[data-accordion]");
- accordion.forEach((header) => {
-   header.addEventListener("click", () => {
-     const accordionItem = header.parentElement;
-     accordionItem.classList.toggle("active");
-   });
- });
+  // ########################## Accordion ##########################
+  const accordion = document.querySelectorAll("[data-accordion]");
+  accordion.forEach((header) => {
+    header.addEventListener("click", () => {
+      const accordionItem = header.parentElement;
+      accordionItem.classList.toggle("active");
+    });
+  });
 })();
+
 // table of contents
 const tableOfContentItems = document.querySelectorAll(".table-of-contents li");
 tableOfContentItems.forEach((item) => {
@@ -62,9 +63,9 @@ const navMenuItems = document.querySelectorAll("#nav-menu li a");
 navMenuItems.forEach((item) => {
   let urlPath = window.location.pathname
   if (urlPath === item.pathname) {
-item.classList.add("active-page")
+    item.classList.add("active-page")
   }
-  
+
 })
 
 // solve nav responsive issue 1024px
