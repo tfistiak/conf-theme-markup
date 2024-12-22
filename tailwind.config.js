@@ -83,6 +83,7 @@ module.exports = {
         primary: [fontPrimary, fontPrimaryType],
       
       },
+      
     },
   },
   plugins: [

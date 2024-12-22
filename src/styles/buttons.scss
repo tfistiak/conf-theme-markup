@@ -1,9 +1,24 @@
 // nav button icon
 .navigation-button-icon {
-  @apply bg-darkmode-theme-light dark:bg-theme-dark-gray h-7 w-7 rounded-full flex items-center justify-center text-white;
+  @apply bg-darkmode-theme-light dark:bg-[#393939] h-7 w-7 rounded-full flex items-center justify-center text-white;
   transition: all 0.5s;
   
 }
 .navigation-button-icon:hover{
   @apply bg-primary;
+}
+
+.btn {
+  @apply inline-block rounded-full w-full h-full py-4 text-center font-normal text-sm uppercase cursor-pointer;
+}
+
+
+.btn-primary {
+  @apply hover:bg-primary hover:dark:bg-primary hover:text-white hover:dark:text-white transition-all duration-500;
+}
+
+.btn-outline {
+  @apply border border-border dark:border-darkmode-border hover:border-primary hover:dark:border-primary bg-transparent hover:bg-primary hover:text-white dark:border-darkmode-border dark:text-white dark:hover:bg-darkmode-primary text-lg transition-all duration-500;
+
+ 
 }

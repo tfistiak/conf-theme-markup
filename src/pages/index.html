@@ -22,7 +22,7 @@
         </h1>
       </div>
       <!-- {{/* Tickets section start */}} -->
-      <div >
+      <div>
         <div
           class="flex justify-between items-center bg-theme-dark py-5 px-3 gap-2 flex-col 2xl:flex-row"
         >
@@ -69,17 +69,50 @@
               </svg>
             </span>
           </div>
-
-          <div
-            class="text-white flex items-center gap-3 flex-wrap justify-center md:justify-stretch"
-          >
-            <p class="text-lg font-light uppercase">+/ Design Dreams</p>
-            <p class="text-lg font-light uppercase">+/ Create Magic</p>
-            <p class="text-lg font-light uppercase">+/ Inspire Design</p>
-            <p class="text-lg font-light uppercase">+/ Innovate Now</p>
-            <p class="text-lg font-light uppercase">+/ Craft Trend</p>
-            <p class="text-lg font-light uppercase">+/ Designer Future</p>
-            <p class="text-lg font-light uppercase">+/ Design Spark</p>
+          <!-- slide  -->
+          <div class="swiper text-white">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide flex gap-5">
+                <p class="text-lg font-light uppercase whitespace-nowrap">
+                  +/ Designer Future
+                </p>
+                <p class="text-lg font-light uppercase whitespace-nowrap">
+                  +/ Design Dreams
+                </p>
+                <p class="text-lg font-light uppercase whitespace-nowrap">
+                  +/ Create Magic
+                </p>
+                <p class="text-lg font-light uppercase whitespace-nowrap">
+                  +/ Innovate Now
+                </p>
+                <p class="text-lg font-light uppercase whitespace-nowrap">
+                  +/ Craft Trend
+                </p>
+                <p class="text-lg font-light uppercase whitespace-nowrap">
+                  +/ Design Spark
+                </p>
+              </div>
+              <div class="swiper-slide flex gap-5">
+                <p class="text-lg font-light uppercase whitespace-nowrap">
+                  +/ Create Magic
+                </p>
+                <p class="text-lg font-light uppercase whitespace-nowrap">
+                  +/ Inspire Design
+                </p>
+                <p class="text-lg font-light uppercase whitespace-nowrap">
+                  +/ Design Dreams
+                </p>
+                <p class="text-lg font-light uppercase whitespace-nowrap">
+                  +/ Create Magic
+                </p>
+                <p class="text-lg font-light uppercase whitespace-nowrap">
+                  +/ Innovate Now
+                </p>
+                <p class="text-lg font-light uppercase whitespace-nowrap">
+                  +/ Craft Trend
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -89,37 +122,51 @@
 
     <!--  Hero banner start -->
     <div
-      class="row pl-0 mt-20 border-t border-t-border dark:border-darkmode-border flex-col xl:flex-row"
+      class="row pl-0 mt-20 border-t border-t-border dark:border-darkmode-border flex-col-reverse lg:flex-row"
     >
       <!-- left section -->
-      <div class=" xl:col-6 pt-20 xl:border-r xl:border-r-border dark:border-darkmode-border">
-        <div class="pr-0 xl:pr-16">
+      <div
+        class="lg:col-6 pt-20 lg:border-r xl:border-r-border dark:border-darkmode-border"
+      >
+        <div class="pr-0 lg:pr-16">
           <h2
-            class="text-h3 sm:text-h1-sm md:text-h1 2xl:text-h1-xl uppercase leading-tight 2xl:leading-none font-medium mb-3 sm:mb-2"
+            class="text-h3 sm:text-h2 2xl:text-h1-xl uppercase leading-tight 2xl:leading-none font-medium mb-3 sm:mb-2"
           >
             Step into The design
           </h2>
           <div class="flex items-center">
             <div class="flex">
-              <span class="-mr-6 relative z-2">
-                <img src="/images/banner_speaker_img_1.png" alt="user icon" />
+              <span class="-mr-6 relative z-2 flex items-center">
+                <img
+                  src="/images/banner_speaker_img_1.png"
+                  alt="user icon"
+                  class="w-16 sm:w-20"
+                />
               </span>
-              <span class="relative z-1 -mr-4">
-                <img src="/images/banner_speaker_img_2.png" alt="user icon" />
+              <span class="relative z-1 -mr-4 flex items-center">
+                <img
+                  src="/images/banner_speaker_img_2.png"
+                  alt="user icon"
+                  class="w-16 sm:w-20"
+                />
               </span>
-              <span class="relative z-0">
-                <img src="/images/banner_plus_btn.png" alt="user icon" />
+              <span class="relative z-0 flex items-center">
+                <img
+                  src="/images/banner_plus_btn.png"
+                  alt="user icon"
+                  class="w-16 sm:w-20"
+                />
               </span>
             </div>
 
             <p
-              class="ml-4 text-h3 sm:text-h1-sm md:text-h1 2xl:text-h1-xl uppercase leading-tight font-medium"
+              class="ml-4 text-h3 sm:text-h2  2xl:text-h1-xl uppercase leading-tight font-medium"
             >
               CLOUD
             </p>
           </div>
         </div>
-        <div class="flex flex-col sm:flex-row mt-8 gap-4 text-lg  2xl:pb-5">
+        <div class="flex flex-col xl:flex-row mt-8 gap-4 text-lg pb-10">
           <p class="font-light"><b>Date:</b> 10-18 Dec, 24</p>
           <p class="font-light">
             <b class="font-semibold">Venue:</b> 124th Collado, Madrid, Spain
@@ -127,10 +174,12 @@
         </div>
       </div>
       <!-- right section -->
-      <div
-        class=" xl:col-6 px-0 mt-16 xl:mt-0 justify-center items-center"
-      >
-        <img src="/images/banner.png" alt="banner-image" class="mx-auto h-full w-full" />
+      <div class="lg:col-6 px-0 mt-16 lg:mt-0 justify-center items-center">
+        <img
+          src="/images/banner.png"
+          alt="banner-image"
+          class="mx-auto h-full w-full"
+        />
       </div>
     </div>
     <!--  Hero banner end -->
@@ -139,17 +188,17 @@
     <div class="row px-0 border-y border-y-border dark:border-darkmode-border">
       <!-- Missions & Visions-->
       <div
-        class=" 2xl:col-6 py-6 flex flex-col md:flex-row border-b border-b-border dark:border-darkmode-border 2xl:border-b-0"
+        class="2xl:col-6 py-6 flex flex-col md:flex-row border-b border-b-border dark:border-darkmode-border 2xl:border-b-0"
       >
         <img
           src="/images/banner_feature_img_mission.png"
           alt="mission"
-          class="mx-auto"
+          class="mr-auto"
         />
 
-        <div class="py-5 px-8">
+        <div class="py-5 md:px-8 mt-5 md:mt-0">
           <!-- {{/* svg */}} -->
-          <span class="mb-20 block">
+          <span class=" mb-10 md:mb-20 block">
             <svg
               width="42"
               height="44"
@@ -177,11 +226,11 @@
       </div>
 
       <!-- others-->
-      <div class=" 2xl:col-6">
+      <div class="2xl:col-6">
         <div class="row md:h-full">
           <!-- speakers -->
-          <div
-            class="md:col-6 !border-l-0 2xl:!border-l border-b md:border-b-0 md:border-r md:border-r-border xl:border-x xl:border-x-border dark:border-darkmode-border h-full flex flex-col relative pb-5 md:pb-0"
+          <a href="/speakers.html"
+            class="md:col-6 !border-l-0 2xl:!border-l border-b md:border-b-0 md:border-r md:border-r-border xl:border-x xl:border-x-border dark:border-darkmode-border h-full flex flex-col relative pb-5 md:pb-0 speaker-feature"
           >
             <!-- arrow -->
             <span class="absolute top-4 right-4">
@@ -242,46 +291,45 @@
             <p class="font-light text-light uppercase mt-3">
               Driving impact through purpose.
             </p>
-          </div>
+          </a>
 
           <!-- highlight -->
-          <div
-            class=" md:col-6 p-8 relative overflow-hidden mt-4 md:mt-0"
-          >
+          <div class="md:col-6 relative overflow-hidden pt-4 md:pt-0 bg-light/10 dark:bg-darkmode-light/10 -z-10">
             <!-- shap -->
             <img
-              src="/images/cto-bg.png"
+              src="/images/union-shap.png"
               alt="shap"
-              class="absolute w-full h-full object-cover  z-0"
+              class="absolute w-full h-full object-cover z-0"
             />
-
-            <span>
-              <svg
-                width="48"
-                height="24"
-                viewBox="0 0 48 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="12" cy="12" r="12" fill="#FD5E09" />
-                <circle cx="36" cy="12" r="12" fill="white" />
-              </svg>
-            </span>
-            <h3 class="text-h5 font-thin uppercase mt-6">
-              Realtime updates through socials.
-            </h3>
-            <div class="flex mt-20 gap-6 justify-between">
-              <div>
-                <span class="uppercase text-dark-gray">#conf2024</span>
-                <p class="uppercase text-dark-gray font-light">
-                  experience Live stream of the event in time
-                </p>
-              </div>
-              <div
-                class="bg-dark text-theme-light dark:bg-primary rounded-full w-24 h-24 flex flex-col justify-center items-center relative z-10 aspect-square"
-              >
-                <span class="text-xs uppercase">Joined</span>
-                <b class="text-2xl uppercase font-semibold">10k</b>
+            <div class="py-5 lg:p-8 ">
+              <span>
+                <svg
+                  width="48"
+                  height="24"
+                  viewBox="0 0 48 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="12" fill="#FD5E09" />
+                  <circle cx="36" cy="12" r="12" fill="white" />
+                </svg>
+              </span>
+              <h3 class="text-h5 font-thin uppercase mt-6">
+                Realtime updates through socials.
+              </h3>
+              <div class="flex mt-20 gap-6 justify-between">
+                <div>
+                  <span class="uppercase text-darkmode-light dark:text-light">#conf2024</span>
+                  <p class="uppercase text-darkmode-light dark:text-light font-light ">
+                    experience Live stream of the event in time
+                  </p>
+                </div>
+                <div
+                  class="bg-dark text-theme-light dark:bg-primary rounded-full w-24 h-24 flex flex-col justify-center items-center relative z-10 aspect-square"
+                >
+                  <span class="text-xs uppercase">Joined</span>
+                  <b class="text-2xl uppercase font-semibold">10k</b>
+                </div>
               </div>
             </div>
           </div>
@@ -306,8 +354,8 @@
     </div>
 
     <!-- Features -->
-    <div class="row py-14 border-b  border-b-border dark:border-darkmode-border">
-      <div class=" xl:col-5 mb-10 xl:mb-0 xl:pr-12">
+    <div class="row py-14 border-b border-b-border dark:border-darkmode-border">
+      <div class="xl:col-5 mb-10 xl:mb-0 xl:pr-12">
         <img
           src="/images/feature_image.png"
           alt="feature image"
@@ -315,19 +363,19 @@
         />
       </div>
       <div
-        class=" xl:col-7 xl:border-l xl:border-l-border dark:border-darkmode-border pl-4 xl:pl-16"
+        class="xl:col-7 xl:border-l xl:border-l-border dark:border-darkmode-border pl-4 xl:pl-16"
       >
         <!-- 1 feature -->
         <div
           class="row pb-10 border-b border-b-border dark:border-darkmode-border"
         >
-          <div class=" sm:col-4 md:col-6 p-0 mb-4 sm:mb-0 ml-3 sm:ml-0">
+          <div class="sm:col-4 md:col-6 p-0 mb-4 sm:mb-0 ml-3 sm:ml-0">
             <h3 class="uppercase text-xl md:text-2xl md:w-7/12 sm:pl-2 xl:pl-0">
               Showcase of Innovative Work
             </h3>
           </div>
-          <div class=" sm:col-8 md:col-6">
-            <p class="md:text-lg font-light text-light dark:text-dark-gray">
+          <div class="sm:col-8 md:col-6">
+            <p class="md:text-lg font-light text-darkmode-light dark:text-light">
               Expect to see stunning portfolios case studies. Designers will
               present their latest projects, from sleek app interfaces to web
               experience.
@@ -345,13 +393,13 @@
         <div
           class="row pb-10 border-b border-b-border dark:border-darkmode-border py-10"
         >
-          <div class=" sm:col-4 md:col-6 p-0 mb-4 sm:mb-0 ml-3 sm:ml-0">
+          <div class="sm:col-4 md:col-6 p-0 mb-4 sm:mb-0 ml-3 sm:ml-0">
             <h3 class="uppercase text-xl md:text-2xl md:w-7/12 sm:pl-2 xl:pl-0">
               Networking Opportunities
             </h3>
           </div>
-          <div class=" sm:col-8 md:col-6">
-            <p class="md:text-lg font-light text-light dark:text-dark-gray">
+          <div class="sm:col-8 md:col-6">
+            <p class="md:text-lg font-light text-darkmode-light dark:text-light">
               From casual chats to speed-networking sessions, you’ll meet a
               diverse group of creatives industry leaders. It’s the perfect
               chance to share ideas.
@@ -369,13 +417,13 @@
         <div
           class="row pb-10 border-b border-b-border dark:border-darkmode-border py-10"
         >
-          <div class=" sm:col-4 md:col-6 p-0 mb-4 sm:mb-0 ml-3 sm:ml-0">
+          <div class="sm:col-4 md:col-6 p-0 mb-4 sm:mb-0 ml-3 sm:ml-0">
             <h3 class="uppercase text-xl md:text-2xl md:w-7/12 sm:pl-2 xl:pl-0">
               Industry Panel Discussions
             </h3>
           </div>
-          <div class=" sm:col-8 md:col-6">
-            <p class="md:text-lg font-light text-light dark:text-dark-gray">
+          <div class="sm:col-8 md:col-6">
+            <p class="md:text-lg font-light text-darkmode-light dark:text-light">
               Leaders in the field share insights on emerging trends,
               challenges, and the future of digital design. These candid
               discussions to valuable knowledge.
@@ -391,13 +439,13 @@
         </div>
         <!-- 4 feature -->
         <div class="row border-b-border dark:border-darkmode-border py-10">
-          <div class=" sm:col-4 md:col-6 p-0 mb-4 sm:mb-0 ml-3 sm:ml-0">
+          <div class="sm:col-4 md:col-6 p-0 mb-4 sm:mb-0 ml-3 sm:ml-0">
             <h3 class="uppercase text-xl md:text-2xl md:w-7/12 sm:pl-2 xl:pl-0">
               Design Challenges and Contests
             </h3>
           </div>
-          <div class=" sm:col-8 md:col-6">
-            <p class="md:text-lg font-light text-light dark:text-dark-gray">
+          <div class="sm:col-8 md:col-6">
+            <p class="md:text-lg font-light text-darkmode-light dark:text-light">
               Get ready for live design competitions where participants can flex
               their creative muscles. Whether it’s a logo quick UX
               problem-solving.
@@ -438,55 +486,59 @@
     <div class="row pb-14 border-b border-b-border dark:border-darkmode-border">
       <!-- Title -->
       <div
-        class=" xl:col-4 xl:pr-10 text-center xl:text-left mb-10 xl:mb-0 flex flex-col justify-center xl:justify-stretch items-center xl:items-stretch "
+        class="xl:col-4 xl:pr-10 text-center xl:text-left mb-10 xl:mb-0 flex flex-col justify-center xl:justify-stretch items-center xl:items-stretch"
       >
-      <div class="xl:sticky xl:top-32 2xl:pr-10">
-        <h2 class="text-h3 md:text-h1-sm uppercase mb-5 leading-tight">our speakers</h2>
-        <p class="text-lg font-light text-dark-gray mb-10">
-          Meet our inspiring speakers who ignite ideas and foster connections.
-          They bring expertise and passion to every conversation.
-        </p>
-        <a class="flex gap-x-3 items-center justify-center xl:justify-stretch" href="/speakers.html">
-          <span class="uppercase text-sm">View all speakers </span>
-          <span class="navigation-button-icon">
-            <i class="fa fa-arrow-right text-xs"></i>
-          </span>
-        </a>
-      </div>
-      
+        <div class="xl:sticky xl:top-32 2xl:pr-10">
+          <h2 class="text-h3 md:text-h1-sm uppercase mb-5 leading-tight">
+            our speakers
+          </h2>
+          <p class="text-lg font-light text-dark-gray mb-10">
+            Meet our inspiring speakers who ignite ideas and foster connections.
+            They bring expertise and passion to every conversation.
+          </p>
+          <a
+            class="flex gap-x-3 items-center justify-center xl:justify-stretch"
+            href="/speakers.html"
+          >
+            <span class="uppercase text-sm">View all speakers </span>
+            <span class="navigation-button-icon">
+              <i class="fa fa-arrow-right text-xs"></i>
+            </span>
+          </a>
+        </div>
       </div>
 
-      <div class=" xl:col-8">
+      <div class="xl:col-8">
         <div
           class="row xl:border-l xl:border-l-border dark:border-darkmode-border px-5"
         >
           <!-- speaker-1 -->
           <div
-            class=" lg:col-6 mb-10 lg:border-b lg:border-b-border dark:border-darkmode-border pb-10"
+            class="md:col-6 mb-10 md:border-b md:border-b-border dark:border-darkmode-border pb-10"
           >
             <div
-              class="lg:border-r lg:border-r-border dark:border-darkmode-border lg:pr-7"
+              class="md:border-r md:border-r-border dark:border-darkmode-border md:pr-7"
             >
               @@include("components/speaker-card.html")
             </div>
           </div>
           <!-- speaker-2 -->
           <div
-            class=" lg:col-6 mb-10 lg:border-b lg:border-b-border dark:border-darkmode-border pb-10"
+            class="md:col-6 mb-10 md:border-b md:border-b-border dark:border-darkmode-border pb-10"
           >
-            <div class="lg:pr-7">@@include("components/speaker-card.html")</div>
+            <div class="md:pr-7">@@include("components/speaker-card.html")</div>
           </div>
           <!-- speaker-3 -->
-          <div class=" lg:col-6 mb-10">
+          <div class="md:col-6 mb-10">
             <div
-              class="lg:border-r lg:border-r-border dark:border-darkmode-border lg:pr-7"
+              class="md:border-r md:border-r-border dark:border-darkmode-border md:pr-7"
             >
               @@include("components/speaker-card.html")
             </div>
           </div>
           <!-- speaker-4 -->
-          <div class=" lg:col-6 mb-10">
-            <div class="lg:pr-7">@@include("components/speaker-card.html")</div>
+          <div class="md:col-6 mb-10">
+            <div class="md:pr-7">@@include("components/speaker-card.html")</div>
           </div>
         </div>
       </div>
@@ -496,10 +548,10 @@
 <!-- End speaker card -->
 
 <!-- start events section -->
- <section class="section">
+<section class="section">
   <div class="container">
     <div class="section-title">
-      <h2>3 day agenda  with sessions</h2>
+      <h2>3 day agenda with sessions</h2>
       <a class="flex gap-x-3 items-center" href="/our-sponsors.html">
         <span class="uppercase text-sm"> Learn Details </span>
         <span class="navigation-button-icon">
@@ -509,7 +561,7 @@
     </div>
     @@include("components/events-card.html")
   </div>
- </section>
+</section>
 <!-- end events section -->
 
 <!-- Start sponsors section -->
@@ -525,9 +577,9 @@
         </span>
       </a>
     </div>
-    <div class="row mb-10 ">
+    <div class="row mb-10">
       <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4 relative">
-        <div >
+        <div>
           <img
             src="/images/sponsor-logo-1.png"
             alt="sponsors-logo"
@@ -539,19 +591,33 @@
             class="w-full hidden dark:block"
           />
         </div>
-        <svg class="hidden lg:block  absolute -bottom-7 -right-3" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          class="hidden lg:block absolute -bottom-7 -right-3"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <g clip-path="url(#clip0_1_1062)">
-          <rect x="-808" y="11" width="1640" height="1" fill="#BBBBBB"/>
-          <rect x="12.5" y="-808.5" width="1640" height="1" transform="rotate(90 12.5 -808.5)" fill="#BBBBBB"/>
+            <rect x="-808" y="11" width="1640" height="1" fill="#BBBBBB" />
+            <rect
+              x="12.5"
+              y="-808.5"
+              width="1640"
+              height="1"
+              transform="rotate(90 12.5 -808.5)"
+              fill="#BBBBBB"
+            />
           </g>
           <defs>
-          <clipPath id="clip0_1_1062">
-          <rect width="24" height="24" fill="white"/>
-          </clipPath>
+            <clipPath id="clip0_1_1062">
+              <rect width="24" height="24" fill="white" />
+            </clipPath>
           </defs>
-          </svg>
+        </svg>
       </div>
-        
+
       <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4 relative">
         <div>
           <img
@@ -565,17 +631,31 @@
             class="w-full hidden dark:block"
           />
         </div>
-        <svg class="hidden lg:block absolute -bottom-7 -right-3" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          class="hidden lg:block absolute -bottom-7 -right-3"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <g clip-path="url(#clip0_1_1062)">
-          <rect x="-808" y="11" width="1640" height="1" fill="#BBBBBB"/>
-          <rect x="12.5" y="-808.5" width="1640" height="1" transform="rotate(90 12.5 -808.5)" fill="#BBBBBB"/>
+            <rect x="-808" y="11" width="1640" height="1" fill="#BBBBBB" />
+            <rect
+              x="12.5"
+              y="-808.5"
+              width="1640"
+              height="1"
+              transform="rotate(90 12.5 -808.5)"
+              fill="#BBBBBB"
+            />
           </g>
           <defs>
-          <clipPath id="clip0_1_1062">
-          <rect width="24" height="24" fill="white"/>
-          </clipPath>
+            <clipPath id="clip0_1_1062">
+              <rect width="24" height="24" fill="white" />
+            </clipPath>
           </defs>
-          </svg>
+        </svg>
       </div>
       <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4 relative">
         <div>
@@ -590,17 +670,31 @@
             class="w-full hidden dark:block"
           />
         </div>
-        <svg class="hidden lg:block absolute -bottom-7 -right-3" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          class="hidden lg:block absolute -bottom-7 -right-3"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <g clip-path="url(#clip0_1_1062)">
-          <rect x="-808" y="11" width="1640" height="1" fill="#BBBBBB"/>
-          <rect x="12.5" y="-808.5" width="1640" height="1" transform="rotate(90 12.5 -808.5)" fill="#BBBBBB"/>
+            <rect x="-808" y="11" width="1640" height="1" fill="#BBBBBB" />
+            <rect
+              x="12.5"
+              y="-808.5"
+              width="1640"
+              height="1"
+              transform="rotate(90 12.5 -808.5)"
+              fill="#BBBBBB"
+            />
           </g>
           <defs>
-          <clipPath id="clip0_1_1062">
-          <rect width="24" height="24" fill="white"/>
-          </clipPath>
+            <clipPath id="clip0_1_1062">
+              <rect width="24" height="24" fill="white" />
+            </clipPath>
           </defs>
-          </svg>
+        </svg>
       </div>
       <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4 relative">
         <div>
@@ -615,17 +709,31 @@
             class="w-full hidden dark:block"
           />
         </div>
-        <svg class="hidden lg:block absolute -bottom-7 -right-3" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          class="hidden lg:block absolute -bottom-7 -right-3"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <g clip-path="url(#clip0_1_1062)">
-          <rect x="-808" y="11" width="1640" height="1" fill="#BBBBBB"/>
-          <rect x="12.5" y="-808.5" width="1640" height="1" transform="rotate(90 12.5 -808.5)" fill="#BBBBBB"/>
+            <rect x="-808" y="11" width="1640" height="1" fill="#BBBBBB" />
+            <rect
+              x="12.5"
+              y="-808.5"
+              width="1640"
+              height="1"
+              transform="rotate(90 12.5 -808.5)"
+              fill="#BBBBBB"
+            />
           </g>
           <defs>
-          <clipPath id="clip0_1_1062">
-          <rect width="24" height="24" fill="white"/>
-          </clipPath>
+            <clipPath id="clip0_1_1062">
+              <rect width="24" height="24" fill="white" />
+            </clipPath>
           </defs>
-          </svg>
+        </svg>
       </div>
       <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4 relative">
         <div>
@@ -640,17 +748,31 @@
             class="w-full hidden dark:block"
           />
         </div>
-        <svg class="hidden lg:block absolute -bottom-7 -right-3" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          class="hidden lg:block absolute -bottom-7 -right-3"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <g clip-path="url(#clip0_1_1062)">
-          <rect x="-808" y="11" width="1640" height="1" fill="#BBBBBB"/>
-          <rect x="12.5" y="-808.5" width="1640" height="1" transform="rotate(90 12.5 -808.5)" fill="#BBBBBB"/>
+            <rect x="-808" y="11" width="1640" height="1" fill="#BBBBBB" />
+            <rect
+              x="12.5"
+              y="-808.5"
+              width="1640"
+              height="1"
+              transform="rotate(90 12.5 -808.5)"
+              fill="#BBBBBB"
+            />
           </g>
           <defs>
-          <clipPath id="clip0_1_1062">
-          <rect width="24" height="24" fill="white"/>
-          </clipPath>
+            <clipPath id="clip0_1_1062">
+              <rect width="24" height="24" fill="white" />
+            </clipPath>
           </defs>
-          </svg>
+        </svg>
       </div>
       <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
@@ -666,7 +788,7 @@
           />
         </div>
       </div>
-      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4 ">
+      <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
           <img
             src="/images/sponsor-logo-7.png"
@@ -679,7 +801,6 @@
             class="w-full hidden dark:block"
           />
         </div>
-      
       </div>
       <div class="col-6 sm:col-4 md:col-3 lg:col-2 g-4">
         <div>
@@ -770,7 +891,7 @@
       <div class="row text-white h-full benefits-bg-img">
         <!-- 1 -->
         <div
-          class=" md:col-6 lg:col-4 border-r border-opacity-10 border-r-body xl:pr-16 pl-8 pb-10 lg:h-full justify-end flex flex-col"
+          class="md:col-6 lg:col-4 border-r border-opacity-10 border-r-body xl:pr-16 pl-8 pb-10 lg:h-full justify-end flex flex-col"
         >
           <span
             ><svg
@@ -794,7 +915,7 @@
         </div>
         <!-- 2 -->
         <div
-          class=" md:col-6 lg:col-4 border-r border-opacity-10 border-r-body xl:pr-16 pl-8 pb-10 lg:h-full justify-end flex flex-col"
+          class="md:col-6 lg:col-4 border-r border-opacity-10 border-r-body xl:pr-16 pl-8 pb-10 lg:h-full justify-end flex flex-col"
         >
           <span
             ><svg
@@ -811,13 +932,15 @@
           <h3 class="uppercase text-2xl font-normal mt-6 mb-5">
             Immersive Experience.
           </h3>
-          <p class="uppercase font-light ">
+          <p class="uppercase font-light">
             Discover innovative trends and gain creative insights through
             interactive exhibits and immerse yourselves.
           </p>
         </div>
         <!-- 3 -->
-        <div class=" md:col-6 lg:col-4 xl:pr-16 pl-8 pb-10 lg:h-full justify-end flex flex-col">
+        <div
+          class="md:col-6 lg:col-4 xl:pr-16 pl-8 pb-10 lg:h-full justify-end flex flex-col"
+        >
           <span
             ><svg
               width="48"
@@ -833,7 +956,7 @@
           <h3 class="uppercase text-2xl font-normal mt-6 mb-5">
             Enhanced Brand Visibility.
           </h3>
-          <p class="uppercase font-light ">
+          <p class="uppercase font-light">
             Present your work and boost brand awareness among a targeted and
             engaged audience.
           </p>
@@ -844,9 +967,8 @@
 </section>
 <!-- end Key benefits section -->
 
-
 <!-- start blog section -->
- <section class="section pb-20">
+<section class="section pb-20">
   <div class="container">
     <div class="section-title">
       <h2>Latest Articles</h2>
@@ -857,17 +979,21 @@
         </span>
       </a>
     </div>
-    <div class="row my-16 gap-y-8 ">
-      <div class=" md:col-6 lg:col-4 md:border-r px-8 border-r-border dark:border-darkmode-border">
+    <div class="row my-16 gap-y-8">
+      <div
+        class="md:col-6 lg:col-4 md:border-r px-8 border-r-border dark:border-darkmode-border"
+      >
         @@include('components/blog-card.html')
       </div>
-      <div class=" md:col-6 lg:col-4 px-8 lg:border-r  border-r-border dark:border-darkmode-border">
+      <div
+        class="md:col-6 lg:col-4 px-8 lg:border-r border-r-border dark:border-darkmode-border"
+      >
         @@include('components/blog-card.html')
       </div>
-      <div class=" md:col-6 lg:col-4 px-8 ">
+      <div class="md:col-6 lg:col-4 px-8">
         @@include('components/blog-card.html')
       </div>
     </div>
   </div>
- </section>
+</section>
 <!-- end blog section -->

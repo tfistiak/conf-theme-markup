@@ -8,11 +8,11 @@ input#nav-toggle:checked + label #hide-button {
 }
 
 input#nav-toggle:checked ~ #nav-menu {
-  @apply block;
+  @apply block mt-10 lg:mt-0;
 }
 
 .header {
-  @apply bg-body dark:bg-darkmode-body pt-10;
+  @apply bg-body dark:bg-darkmode-body pt-7 sm:pt-8;
 }
 
 // navbar items
@@ -21,7 +21,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .navbar-brand {
-  @apply text-dark dark:text-darkmode-dark text-xl font-semibold;
+  @apply text-dark dark:text-darkmode-dark text-3xl flex gap-1 items-center;
   image {
     @apply max-h-full max-w-full;
   }
@@ -34,7 +34,7 @@ input#nav-toggle:checked ~ #nav-menu {
 
 
 .nav-link {
-  @apply  hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary block p-3 cursor-pointer font-normal transition lg:px-2 lg:py-3 text-sm xl:text-base;
+  @apply  hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary block p-3 cursor-pointer font-normal transition lg:px-1 xl:px-2 lg:py-3 text-base;
 } 
 
 
@@ -51,7 +51,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .nav-dropdown-link {
-  @apply block py-1 text-dark transition hover:text-primary dark:text-darkmode-text dark:hover:text-darkmode-primary text-sm xl:text-base;
+  @apply block py-1 text-dark transition hover:text-primary dark:text-darkmode-text dark:hover:text-darkmode-primary text-base;
 }
 
 //theme-switcher
@@ -70,4 +70,15 @@ input#nav-toggle:checked ~ #nav-menu {
   }
 }
 
+@keyframes rotateOnLoad {
+  0% {
+    transform: rotate(0deg); 
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
+.svg-icon {
+  animation: rotateOnLoad 1s ease-in-out;
+}

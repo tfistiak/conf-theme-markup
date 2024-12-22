@@ -7,6 +7,37 @@
   //   document.querySelector(".preloader").style.display = "none";
   // });
 
+  // ########################## swipper ##########################
+  new Swiper('.swiper', {
+    slidesPerView: 'auto', // Adjust slides per view dynamically
+    loop: true,
+    speed: 20000,
+    loopAdditionalSlides: 20,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      1624: {
+        spaceBetween: -50,
+      },
+      1300: {
+        spaceBetween: 0,
+      },
+      768: {
+        spaceBetween: 500,
+      },
+      576: {
+        spaceBetween: 500,
+      },
+      0: {
+        spaceBetween: 700,
+      }
+    }
+  });
+
+
+
   // ########################## Theme switcher ##########################
   var darkMode = false;
   var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
@@ -63,7 +94,7 @@ const navMenuItems = document.querySelectorAll("#nav-menu li a");
 navMenuItems.forEach((item) => {
   let urlPath = window.location.pathname
   if (urlPath === item.pathname) {
-    item.classList.add("active-page")
+    item.classList.add("text-primary");
   }
 
 })
@@ -74,4 +105,20 @@ window.addEventListener("resize", () => {
     document.querySelector("#nav-menu").classList.add("lg:!flex");
   }
 });
+
+// rotate svg icon on scroll
+function rotateOnScroll() {
+  const svgIcon = document.querySelector('.svg-icon');
+  
+  if (window.scrollY === 0) {
+    svgIcon.style.animation = 'none'; 
+    svgIcon.offsetHeight; 
+    svgIcon.style.animation = 'rotateOnLoad 1s ease-in-out'; 
+  }
+}
+
+window.addEventListener('scroll', rotateOnScroll);
+
+
+// stop footer link animation on scroll
 
