@@ -74,12 +74,3 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 
-// nav btton icon
-.navigation-button-icon {
-  @apply bg-darkmode-theme-light dark:bg-theme-dark-gray h-7 w-7 rounded-full flex items-center justify-center text-white;
-  transition: all 0.5s;
-  
-}
-.navigation-button-icon:hover{
-  @apply bg-primary;
-}

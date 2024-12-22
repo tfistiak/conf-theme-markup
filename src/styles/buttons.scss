@@ -1,16 +1,9 @@
-.btn {
-  @apply inline-block rounded border border-transparent px-5 py-2 font-semibold capitalize transition;
+// nav button icon
+.navigation-button-icon {
+  @apply bg-darkmode-theme-light dark:bg-theme-dark-gray h-7 w-7 rounded-full flex items-center justify-center text-white;
+  transition: all 0.5s;
+  
 }
-
-.btn-sm {
-  @apply rounded-sm px-4 py-1.5 text-sm;
+.navigation-button-icon:hover{
+  @apply bg-primary;
 }
-
-.btn-primary {
-  @apply border-primary bg-primary dark:border-darkmode-primary dark:text-dark text-white dark:bg-darkmode-primary;
-}
-
-.btn-outline-primary {
-  @apply border-dark text-dark hover:bg-dark dark:hover:text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
-}
-
