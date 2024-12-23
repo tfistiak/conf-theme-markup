@@ -147,7 +147,7 @@
       @apply text-2xl text-dark dark:text-darkmode-text uppercase mb-2;
     }
     p {
-      @apply font-light text-darkmode-light dark:text-light dark:text-darkmode-dark-gray;
+      @apply font-light text-darkmode-light dark:text-light;
     }
   }
 }

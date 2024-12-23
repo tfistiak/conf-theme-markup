@@ -13,8 +13,8 @@
         "default": "#222222",
         "white": "#ffffff",
         "dark": "#040404",
-        "light": "#999999",
-        "dark_gray":"#999999"
+        "light": "#999999"
+       
       }
     },
     "darkmode": {
@@ -28,8 +28,8 @@
       "text_color": {
         "default": "#FFFFFF",
         "dark": "#fff",
-        "light": "#444444",
-        "dark_gray":"#B9B9B9"
+        "light": "#444444"
+       
       }
     }
   },

@@ -49,8 +49,6 @@ module.exports = {
         border: theme.colors.default.theme_color.border,
         "theme-light": theme.colors.default.theme_color.theme_light,
         "theme-dark": theme.colors.default.theme_color.theme_dark,
-        "theme-dark-gray": theme.colors.default.theme_color.theme_dark_gray,
-        "dark-gray": theme.colors.default.text_color.dark_gray,
         darkmode: {
           text: theme.colors.darkmode.text_color.default,
           light: theme.colors.darkmode.text_color.light,
@@ -61,7 +59,6 @@ module.exports = {
           border: theme.colors.darkmode.theme_color.border,
           "theme-light": theme.colors.darkmode.theme_color.theme_light,
           "theme-dark": theme.colors.darkmode.theme_color.theme_dark,
-          "dark-gray": theme.colors.darkmode.text_color.dark_gray,
         },
       },
       fontSize: {

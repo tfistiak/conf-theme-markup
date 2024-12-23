@@ -12,6 +12,17 @@
 }
 
 
+.speaker-feature{
+  @apply transition-all duration-500;
+  svg{
+    @apply transition-all duration-500;
+  }
+}
+.speaker-feature:hover svg{
+  @apply  -translate-y-2 translate-x-2   ;
+ 
+}
+
 .text-gold {
   color: #efba5a;
 }
