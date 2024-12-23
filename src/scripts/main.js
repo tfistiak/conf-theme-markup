@@ -11,29 +11,14 @@
   new Swiper('.swiper', {
     slidesPerView: 'auto', // Adjust slides per view dynamically
     loop: true,
-    speed: 20000,
-    loopAdditionalSlides: 20,
+    speed: 30000,
+    spaceBetween: 20,
+    loopAdditionalSlides: 30,
     autoplay: {
       delay: 0,
       disableOnInteraction: false,
     },
-    breakpoints: {
-      1624: {
-        spaceBetween: -50,
-      },
-      1300: {
-        spaceBetween: 0,
-      },
-      768: {
-        spaceBetween: 500,
-      },
-      576: {
-        spaceBetween: 500,
-      },
-      0: {
-        spaceBetween: 700,
-      }
-    }
+   
   });
 
 

@@ -132,11 +132,19 @@
 
 // sponsor logo
 .sponsor-logo {
-  @apply px-6 py-9 rounded-sm bg-theme-light dark:bg-darkmode-theme-light;
+  @apply block px-6 py-9 rounded-sm bg-theme-light dark:bg-darkmode-theme-light;
+  &:hover{
+    img {
+      @apply grayscale-0;
+    }
+  }
+  img{
+    @apply grayscale  transition  duration-300 dark:invert  w-[170px] object-contain; 
+  }
   div {
-    @apply mt-14;
+    @apply mt-10;
     h4 {
-      @apply text-2xl text-dark dark:text-darkmode-text uppercase mb-2 font-light;
+      @apply text-2xl text-dark dark:text-darkmode-text uppercase mb-2;
     }
     p {
       @apply font-light text-darkmode-light dark:text-light dark:text-darkmode-dark-gray;
