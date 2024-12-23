@@ -11,6 +11,68 @@
   @apply rounded-[16px];
 }
 
+// banner title
+// .banner-title {
+//   font-size: 250px;
+//   @apply font-semibold text-dark dark:text-darkmode-dark;
+//   @media screen and (max-width: 1664px) {
+//     font-size: 220px;
+//   }
+
+//   @media screen and (max-width: 1540px) {
+//     font-size: 190px;
+//   }
+//   @media screen and (max-width: 1280px) {
+//     font-size: 150px;
+//   }
+//   @media screen and (max-width: 1024px) {
+//     font-size: 100px;
+//   }
+//   @media screen and (max-width: 776px) {
+//     font-size: 80px;
+//   }
+//   @media screen and (max-width: 565px) {
+//     font-size: 70px;
+//   }
+//   @media screen and (max-width: 470px) {
+//     font-size: 60px;
+//   }
+//   @media screen and (max-width: 405px) {
+//     font-size: 40px;
+//   }
+// }
+// .title-star {
+//   svg {
+//     width: 200px;
+//     @apply fill-primary dark:fill-darkmode-primary inline-block mb-5;
+//     @media screen and (max-width: 1664px) {
+//       width: 170px;
+//     }
+//     @media screen and (max-width: 1540px) {
+//       width: 150px;
+//     }
+//     @media screen and (max-width: 1280px) {
+//       width: 110px;
+//     }
+//     @media screen and (max-width: 1024px) {
+//       width: 70px;
+//     }
+//     @media screen and (max-width: 768px) {
+//       width: 60px;
+//     }
+//     @media screen and (max-width: 565px) {
+//       width: 50px;
+//     }
+//     @media screen and (max-width: 470px) {
+//       width: 40px;
+//     }
+//     @media screen and (max-width: 405px) {
+//       width: 30px;
+//     }
+//   }
+// }
+
+
 
 .speaker-feature{
   @apply transition-all duration-500;

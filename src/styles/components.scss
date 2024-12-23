@@ -33,7 +33,7 @@
     @apply h-[.8em] w-[.8em] rotate-[-90deg] transition-transform duration-200;
   }
   &-content {
-    @apply max-h-0 overflow-hidden py-0  dark:text-darkmode-light mb-5;
+    @apply max-h-0 overflow-hidden py-0  text-darkmode-light dark:text-light mb-5;
   }
   &.active {
     .accordion-icon {
