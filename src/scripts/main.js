@@ -9,17 +9,36 @@
 
   // ########################## swipper ##########################
   new Swiper('.swiper', {
-    slidesPerView: 'auto', // Adjust slides per view dynamically
+    slidesPerView: 'auto',
     loop: true,
-    speed: 30000,
-    spaceBetween: 20,
-    loopAdditionalSlides: 20,
+    speed: 15000,
+    loopAdditionalSlides: 10,
+    spaceBetween: 20, 
     autoplay: {
       delay: 0,
       disableOnInteraction: false,
     },
-   
+    breakpoints: {
+      1340: {
+        spaceBetween: 40, 
+      },
+      1024: {
+        spaceBetween: 30,
+      },
+      768: {
+        spaceBetween: 25,
+      },
+      520: {
+        spaceBetween: 20,
+        slidesPerView: 1.5, 
+      },
+      375: {
+        spaceBetween: 15,
+        slidesPerView: 1.2, 
+      },
+    },
   });
+  
 
 
 
