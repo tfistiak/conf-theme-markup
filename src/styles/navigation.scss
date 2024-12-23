@@ -21,7 +21,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .navbar-brand {
-  @apply text-dark dark:text-darkmode-dark text-3xl flex gap-1 items-center;
+  @apply text-dark dark:text-darkmode-dark text-3xl flex gap-1 items-center font-medium;
   image {
     @apply max-h-full max-w-full;
   }

@@ -13,7 +13,7 @@
     loop: true,
     speed: 30000,
     spaceBetween: 20,
-    loopAdditionalSlides: 30,
+    loopAdditionalSlides: 20,
     autoplay: {
       delay: 0,
       disableOnInteraction: false,
