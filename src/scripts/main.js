@@ -78,16 +78,40 @@
 })();
 
 // table of contents
-const tableOfContentItems = document.querySelectorAll(".table-of-contents li");
-tableOfContentItems.forEach((item) => {
 
-  item.addEventListener("click", () => {
-    document.querySelectorAll(".active-table").forEach((activeItem) => {
-      activeItem.classList.remove("active-table");
+document.addEventListener("DOMContentLoaded", () => {
+  const tableOfContentItems = document.querySelectorAll(".table-of-contents li a");
+  const sections = document.querySelectorAll("#crafting, #creating, #comment");
+
+  const updateActiveLink = () => {
+    let currentSectionId = "";
+
+    sections.forEach((section) => {
+      const sectionTop = section.getBoundingClientRect().top;
+
+      if (sectionTop <= 200) {
+        currentSectionId = section.id;
+      }
     });
-    item.classList.add("active-table");
-  })
-})
+
+    tableOfContentItems.forEach((link) => {
+      const href = link.getAttribute("href").replace("#", "");
+      console.log(currentSectionId);
+      
+      if (href === currentSectionId) {
+        link.parentElement.classList.add("active-table");
+      } else {
+        link.parentElement.classList.remove("active-table");
+      }
+    });
+  };
+
+  window.addEventListener("scroll", updateActiveLink);
+  window.addEventListener("resize", updateActiveLink);
+
+  updateActiveLink();
+});
+
 
 // make active page
 const navMenuItems = document.querySelectorAll("#nav-menu li a");
