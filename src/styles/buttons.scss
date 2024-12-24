@@ -14,7 +14,7 @@
 
 
 .btn-primary {
-  @apply text-sm bg-darkmode-light hover:bg-primary hover:dark:bg-primary transition duration-300 dark:bg-light  py-4 px-8 uppercase text-white;
+  @apply text-sm bg-darkmode-light hover:bg-primary hover:dark:bg-primary hover:text-white hover:dark:text-white transition duration-300 dark:bg-light  py-4 px-8 uppercase text-white;
 }
 
 .btn-outline {
