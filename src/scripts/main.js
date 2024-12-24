@@ -14,7 +14,7 @@
     loop: true,
     speed: 10000,
     loopAdditionalSlides: 10,
-    spaceBetween: 10, 
+    spaceBetween: 0, 
     autoplay: {
       delay: 0,
       disableOnInteraction: false,
