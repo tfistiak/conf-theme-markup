@@ -8,37 +8,37 @@
   // });
 
   // ########################## swipper ##########################
+
   new Swiper('.swiper', {
-    slidesPerView: 'auto',
+    slidesPerView: '2',
     loop: true,
-    speed: 15000,
+    speed: 10000,
     loopAdditionalSlides: 10,
-    spaceBetween: 20, 
+    spaceBetween: 10, 
     autoplay: {
       delay: 0,
       disableOnInteraction: false,
     },
     breakpoints: {
+      1640: {
+        slidesPerView: 6, 
+      },
       1340: {
-        spaceBetween: 40, 
+        slidesPerView: 5, 
       },
       1024: {
-        spaceBetween: 30,
+        slidesPerView: 4,
       },
       768: {
-        spaceBetween: 25,
+        slidesPerView: 3,
       },
       520: {
-        spaceBetween: 20,
-        slidesPerView: 1.5, 
+       
+        slidesPerView:2, 
       },
-      375: {
-        spaceBetween: 15,
-        slidesPerView: 1.2, 
-      },
+      
     },
   });
-  
 
 
 
