@@ -3,7 +3,7 @@
     <!-- logo -->
     <div class="order-0">
       <a class="navbar-brand" href="index.html">
-        <span class="svg-icon">
+        <span class="svg-icon mr-1">
           <svg
             width="22"
             height="23"
@@ -18,7 +18,12 @@
           </svg>
         </span>
 
-        <span>CONF</span>
+        <img
+          src="/images/logo-light.png"
+          alt="logo"
+          class="block dark:hidden"
+        />
+        <img src="/images/logo-dark.png" alt="logo" class="hidden dark:block" />
       </a>
     </div>
     <!-- navbar toggler -->
@@ -182,12 +187,10 @@
       <!-- nav button -->
       <a
         href="/events.html"
-        class="hidden lg:flex lg:items-center lg:space-x-2"
+        class="!hidden lg:!flex btn btn-icon"
       >
-        <span class="uppercase font-normal">Register</span>
-        <span class="navigation-button-icon"
-          ><i class="fa fa-arrow-right text-xs"></i
-        ></span>
+        <span >Register</span>
+        <i class="fa fa-arrow-right text-xs"></i >
       </a>
     </div>
   </nav>

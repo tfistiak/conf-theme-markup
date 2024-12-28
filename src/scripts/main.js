@@ -12,8 +12,8 @@
   new Swiper('.swiper', {
     slidesPerView: '2',
     loop: true,
-    speed: 10000,
-    loopAdditionalSlides: 10,
+    speed: 5000,
+    loopAdditionalSlides: 5,
     spaceBetween: 0, 
     autoplay: {
       delay: 0,
@@ -32,7 +32,7 @@
       768: {
         slidesPerView: 3,
       },
-      520: {
+      420: {
        
         slidesPerView:2, 
       },
@@ -141,7 +141,7 @@ function rotateOnScroll() {
   if (window.scrollY === 0) {
     svgIcon.style.animation = 'none'; 
     svgIcon.offsetHeight; 
-    svgIcon.style.animation = 'rotateOnLoad 1s ease-in-out'; 
+    svgIcon.style.animation = 'rotateOnLoad 1s forwards'; 
   }
 }
 

@@ -141,7 +141,7 @@
     }
   }
   img{
-    @apply grayscale  transition  duration-300 dark:invert  w-[170px] object-contain; 
+    @apply grayscale  transition  duration-300   w-[170px] object-contain; 
   }
   div {
     @apply mt-10;
@@ -182,12 +182,7 @@
     p {
       @apply text-lg font-light text-darkmode-light dark:text-light  mb-6;
     }
-    a {
-      @apply text-sm flex gap-3 items-center uppercase font-light;
-      i {
-        @apply text-xs;
-      }
-    }
+    
   }
 }
 
@@ -195,7 +190,7 @@
   @apply w-full px-10 h-[130px] bg-light/20 dark:bg-darkmode-light/20 hover:dark:bg-light/50 hover:bg-light/40 flex justify-center items-center transition-all duration-200;
 
   img {
-    @apply w-[170px] object-contain grayscale dark:invert  transition-all duration-200;
+    @apply w-[170px] object-contain grayscale  transition-all duration-200;
   }
 }
 .sponsor-logo-effect:hover img {

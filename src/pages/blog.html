@@ -1,7 +1,8 @@
 <!-- Blog -->
 <section class="section">
   <div class="container">
-    @@include("page-header.html",{ "title": "Our Latest Blogs & Articles", subtitle: "Get Tickets", button:"", btnClass: "!hidden" })
+    @@include("page-header.html",{ "title": "Our Latest Blogs & Articles",
+    subtitle: "Get Tickets", button:"", btnClass: "!hidden" })
 
     <!-- Blogs -->
     <div
@@ -36,67 +37,59 @@
     </div>
 
     <!-- pagination -->
-    <div class="w-full flex justify-between items-end mt-8 mb-28">
-      <a
-        href="/blog.html?page=1"
-        class="hidden lg:flex lg:items-center lg:space-x-2"
-      >
-        <span class="navigation-button-icon"
-          ><i class="fa fa-arrow-left text-xs"></i
-        ></span>
-        <span class="uppercase font-normal text-sm">Previous Page</span>
+    <div class="w-full flex justify-between items-center mt-8 mb-28">
+      <a href="/blog.html" class="btn btn-icon">
+        <i class="fa fa-arrow-left text-xs"></i>
+        <span class="uppercase font-normal">Pervious Page</span>
       </a>
-     
-        <ul class="flex gap-4">
-          <!-- Page 1 -->
-          <li>
-            <a 
-              href="/blog.html?page=1" 
-              class="px-4 py-2 text-sm font-medium text-gray-500 border border-gray-300 rounded hover:bg-gray-200 hover:text-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:text-white transition">
-              1
-            </a>
-          </li>
-      
-          <!-- Active Page -->
-          <li>
-            <a 
-              href="/blog.html?page=2" 
-              class="px-4 py-2 text-sm font-medium text-white bg-primary border border-primary rounded hover:text-white">
-              2
-            </a>
-          </li>
-      
-          <!-- Page 3 -->
-          <li>
-            <a 
-              href="/blog.html?page=3" 
-              class="px-4 py-2 text-sm font-medium text-gray-500 border border-gray-300 rounded hover:bg-gray-200 hover:text-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:text-white transition">
-              3
-            </a>
-          </li>
-      
-          <!-- Page 4 -->
-          <li>
-            <a 
-              href="/blog.html?page=4" 
-              class="px-4 py-2 text-sm font-medium text-gray-500 border border-gray-300 rounded hover:bg-gray-200 hover:text-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:text-white transition">
-              4
-            </a>
-          </li>
-        </ul>
-  
-      
-      <a
-        href="/blog.html?page=2"
-        class="hidden lg:flex lg:items-center lg:space-x-2"
-      >
-        <span class="uppercase font-normal text-sm">NEXT Page</span>
-        <span class="navigation-button-icon"
-          ><i class="fa fa-arrow-right text-xs"></i
-        ></span>
+
+      <ul class="flex gap-4">
+        <!-- Page 1 -->
+        <li>
+          <a
+            href="/blog.html?page=1"
+            class="px-4 py-2 text-sm font-medium text-gray-500 border border-gray-300 rounded hover:bg-gray-200 hover:text-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:text-white transition"
+          >
+            1
+          </a>
+        </li>
+
+        <!-- Active Page -->
+        <li>
+          <a
+            href="/blog.html?page=2"
+            class="px-4 py-2 text-sm font-medium text-white bg-primary border border-primary rounded hover:text-white"
+          >
+            2
+          </a>
+        </li>
+
+        <!-- Page 3 -->
+        <li>
+          <a
+            href="/blog.html?page=3"
+            class="px-4 py-2 text-sm font-medium text-gray-500 border border-gray-300 rounded hover:bg-gray-200 hover:text-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:text-white transition"
+          >
+            3
+          </a>
+        </li>
+
+        <!-- Page 4 -->
+        <li>
+          <a
+            href="/blog.html?page=4"
+            class="px-4 py-2 text-sm font-medium text-gray-500 border border-gray-300 rounded hover:bg-gray-200 hover:text-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:text-white transition"
+          >
+            4
+          </a>
+        </li>
+      </ul>
+
+      <a href="/blogs.html" class="btn btn-icon">
+        <span class="uppercase font-normal">Next Page</span>
+        <i class="fa fa-arrow-right text-xs"></i>
       </a>
     </div>
-
   </div>
 </section>
 <!-- /Blog -->

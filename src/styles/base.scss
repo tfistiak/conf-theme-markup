@@ -48,11 +48,11 @@ code {
   @apply after:border-none;
 }
 
-a {
-  @apply transition duration-300 hover:text-primary;
-  &:hover {
-    .navigation-button-icon {
-      @apply transition duration-300 bg-primary;
-    }
-  }
-}
+// a {
+//   @apply transition duration-300 hover:text-primary;
+//   &:hover {
+//     .navigation-button-icon {
+//       @apply transition duration-300 bg-primary;
+//     }
+//   }
+// }

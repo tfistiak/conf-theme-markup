@@ -72,13 +72,15 @@ input#nav-toggle:checked ~ #nav-menu {
 
 @keyframes rotateOnLoad {
   0% {
-    transform: rotate(0deg); 
+    // transform: rotate(0deg); 
+    transform: rotate(1turn);
   }
   100% {
-    transform: rotate(360deg);
+    // transform: rotate(360deg);
+    transform: rotate(2turn);
   }
 }
 
 .svg-icon {
-  animation: rotateOnLoad 1s ease-in-out;
+  animation: rotateOnLoad 1s forwards;
 }
