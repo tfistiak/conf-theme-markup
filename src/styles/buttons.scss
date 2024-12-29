@@ -1,12 +1,4 @@
-// nav button icon
-.navigation-button-icon {
-  @apply bg-darkmode-theme-light dark:bg-[#393939] rounded-full flex items-center justify-center text-white;
-  transition: all 0.5s;
-  
-}
-.navigation-button-icon:hover{
-  @apply bg-primary;
-}
+
 
 .btn {
   @apply inline-block rounded-sm p-2 text-center font-normal uppercase cursor-pointer transition duration-300 text-sm;

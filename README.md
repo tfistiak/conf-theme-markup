@@ -5,7 +5,7 @@
 <p align="center">Conf Tailwind is a modern HTML template designed for conferences, events, and gatherings. Developed using Gulp and TailwindCSS, it ensures high performance and ease of use.</p>
 
 <h2 align="center">
-<a target="_blank" href="https://conf-theme-markup.vercel.app/" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https://conf-theme-markup.vercel.app/1to2abs0qz?form_factor=desktop">Page Speed (95+)🚀</a>
+<a target="_blank" href="https://conf-theme-markup.vercel.app/" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-conf-theme-markup-vercel-app/m3irym1tpi?form_factor=mobile">Page Speed (95+)🚀</a>
 </h2>
 
 ## 🚀 Getting Started

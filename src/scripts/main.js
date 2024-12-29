@@ -32,7 +32,7 @@
       768: {
         slidesPerView: 3,
       },
-      420: {
+      400: {
        
         slidesPerView:2, 
       },
