@@ -33,7 +33,6 @@
         slidesPerView: 3,
       },
       400: {
-       
         slidesPerView:2, 
       },
       
