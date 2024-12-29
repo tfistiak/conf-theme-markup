@@ -9,7 +9,13 @@
 }
 
 .btn {
-  @apply inline-block rounded-sm p-2 text-center font-normal uppercase cursor-pointer transition duration-300;
+  @apply inline-block rounded-sm p-2 text-center font-normal uppercase cursor-pointer transition duration-300 text-sm;
+}
+.btn-lg{
+  @apply w-full py-4 text-lg;
+}
+.btn-sm{
+  @apply px-8 py-4 text-sm;
 }
 .btn-icon{
   @apply flex items-center space-x-2 ;
@@ -20,16 +26,17 @@
     }
   }
   i{
-    @apply  h-7 w-7 rounded-full bg-dark dark:bg-darkmode-light flex items-center justify-center text-white transition duration-300;
+    @apply  h-7 w-7 rounded-full bg-dark dark:bg-darkmode-light flex items-center justify-center text-theme-light transition duration-300;
   }
 }
 
 .btn-primary {
-  @apply text-sm bg-darkmode-light hover:bg-primary hover:dark:bg-primary hover:text-white hover:dark:text-white transition duration-300 dark:bg-light  py-4 px-8 uppercase text-white;
+  @apply bg-dark text-darkmode-dark dark:bg-darkmode-dark dark:text-dark hover:bg-primary hover:dark:bg-primary hover:text-darkmode-text hover:dark:text-darkmode-text ;
 }
 
-.btn-outline {
-  @apply border border-border dark:border-darkmode-border hover:border-primary hover:dark:border-primary bg-transparent hover:bg-primary hover:text-white dark:text-white dark:hover:bg-darkmode-primary text-lg transition-all duration-500;
+
+.btn-primary-outline {
+  @apply border border-border dark:border-darkmode-border hover:bg-primary hover:dark:bg-primary hover:text-darkmode-text hover:dark:text-darkmode-text hover:border-primary hover:dark:border-primary;
 
 }
 

@@ -14,19 +14,17 @@
             alt="Conf Theme"
           />
         </a>
-        <p
-          class="mb-8 lg:mb-14 text-darkmode-light dark:text-light text-lg leading-7"
-        >
+        <p class="mb-8 lg:mb-14 dark:text-light text-lg leading-7">
           We help local companies and services enter the market, and well-known
           brands expand an audience.
         </p>
         <a
-          class="mb-8 lg:mb-16 inline-block uppercase border-b-2 border-b-border dark:border-darkmode-border text-sm"
+          class="mb-8 lg:mb-16 inline-block uppercase border-b-2 border-b-border dark:border-darkmode-border text-sm hover:text-primary transition duration-300"
           href="/contact"
           >Let’s contact us</a
         >
 
-        <ul class="social-icons-footer">
+        <ul class="social-icons">
           <li>
             <a
               href="https://www.facebook.com"
@@ -72,82 +70,70 @@
 
       <!-- company links -->
       <div class="lg:col-8 xl:pl-16 flex flex-col justify-center">
-        <div class="row justify-between">
-          <!-- {{/* col-1 */}} -->
+        <div class="row justify-between footer-links">
+          <!-- col-1  -->
           <div class="lg:col-4 mb-10 xl:mb-0">
-            <h2
-              class="mb-4 xl:mb-8 text-2xl lg:text-xl font-normal leading-7 uppercase"
-            >
-              Quick Links
-            </h2>
-            <ul class="flex flex-col uppercase text-sm">
-              <li class="my-3 inline-block font-light">
+            <h2>Quick Links</h2>
+            <ul>
+              <li>
                 <a href="/">Home</a>
               </li>
-              <li class="my-3 inline-block font-light">
+              <li>
                 <a href="/">About The Event</a>
               </li>
-              <li class="my-3 inline-block font-light">
+              <li>
                 <a href="/">Speakers</a>
               </li>
-              <li class="my-3 inline-block font-light">
+              <li>
                 <a href="/">Workshop Sessions</a>
               </li>
-              <li class="my-3 inline-block font-light">
+              <li>
                 <a href="/">Sponsor Partners </a>
               </li>
             </ul>
           </div>
-          <!-- {{/* col-2 */}} -->
+          <!-- col-2  -->
           <div class="lg:col-4 mb-10 xl:mb-0">
-            <h2
-              class="mb-4 xl:mb-8 text-2xl lg:text-xl font-normal leading-7 uppercase"
-            >
-              Contact Info
-            </h2>
-            <ul class="flex flex-col uppercase text-sm">
+            <h2>Contact Info</h2>
+            <ul>
               <li class="my-3 inline-block font-light lg:pr-24">
                 27 Division St, New York, NY 10002, USA
               </li>
-              <li class="my-3 inline-block font-light">
+              <li>
                 <a href="tel:123456789">+1 800 123 654 987</a>
               </li>
-              <li class="my-3 inline-block font-light">
+              <li>
                 <a href="mailto:W5a2p@example.com"> info@designerevent.com</a>
               </li>
             </ul>
           </div>
 
-          <!-- {{/* col-3 */}} -->
+          <!-- col-3  -->
           <div class="lg:col-4 mb-10 xl:mb-0">
-            <h2
-              class="mb-4 xl:mb-8 text-2xl lg:text-xl font-normal leading-7 uppercase"
-            >
-              Get started
-            </h2>
-            <ul class="flex flex-col uppercase text-sm">
-              <li class="my-3 inline-block font-light">
+            <h2>Get started</h2>
+            <ul>
+              <li>
                 <a href="/">Register Now</a>
               </li>
-              <li class="my-3 inline-block font-light">
+              <li>
                 <a href="/">Get Tickets</a>
               </li>
-              <li class="my-3 inline-block font-light">
+              <li>
                 <a href="/">Our Gallery</a>
               </li>
-              <li class="my-3 inline-block font-light">
+              <li>
                 <a href="/">Stay in the loop</a>
               </li>
-              <li class="my-3 inline-block font-light">
+              <li>
                 <a href="/">Terms of service</a>
               </li>
             </ul>
           </div>
         </div>
-        <!-- {{/*  footer action button  */}} -->
-        <div class="btn btn-outline mt-16 footer-action-btn">
+        <!--  footer action button   -->
+        <div class="mt-16">
           <a
-            class="w-full flex items-center justify-center gap-x-2"
+            class="btn btn-lg btn-primary-outline rounded-full flex items-center justify-center gap-x-2 group"
             href="/events.html"
             ><span>Register Now</span>
             <svg
@@ -160,14 +146,14 @@
               <g clip-path="url(#clip0_1_1210)">
                 <path
                   d="M7 21L21 7"
-                  class="stroke-dark dark:stroke-white stroke-hover"
+                  class="stroke-dark dark:stroke-darkmode-dark group-hover:stroke-darkmode-dark transition-all duration-300"
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M9.625 7H21V18.375"
-                  class="stroke-dark dark:stroke-white stroke-hover"
+                  class="stroke-dark dark:stroke-darkmode-dark group-hover:stroke-darkmode-dark transition-all duration-300"
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -186,7 +172,7 @@
   </div>
 
   <!-- bottom footer -->
-  <!-- {{/* Copyright */}} -->
+  <!-- Copyright  -->
   <div
     class="container border-t border-t-border dark:border-darkmode-border pt-16 pb-12 uppercase"
   >
@@ -198,8 +184,17 @@
       </p>
 
       <div class="flex gap-2">
-        <a href="/" class="text-center sm:text-right">Terms of Service</a>|
-        <a href="/" class="text-center sm:text-right"> Privacy Policy</a>
+        <a
+          href="/"
+          class="text-center sm:text-right hover:text-primary transition duration-300"
+          >Terms of Service</a
+        >|
+        <a
+          href="/"
+          class="text-center sm:text-right hover:text-primary transition duration-300"
+        >
+          Privacy Policy</a
+        >
       </div>
     </div>
   </div>

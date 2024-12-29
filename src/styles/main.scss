@@ -17,32 +17,16 @@
   @include meta.load-css("utilities");
 }
 
-// social icons
+
+// social icons 
 .social-icons {
-  @apply space-x-0 mr-5;
+  @apply flex space-x-4;
   li {
-    @apply hidden sm:inline-block;
     a {
-      @apply dark:text-white flex h-7 w-7 items-center justify-center rounded text-center leading-9 text-dark hover:text-primary dark:hover:text-primary;
-      i {
-        @apply text-xl;
-      }
-    }
-  }
-}
-// social icons footer
-.social-icons-footer {
-  @apply space-x-4;
-  li {
-    @apply inline-block transition-all duration-500;
-    :hover {
-    
-    }
-    a {
-      @apply dark:text-white flex h-12 w-12 items-center justify-center rounded-full text-center leading-9 text-dark border border-border dark:border-darkmode-border border-opacity-20 hover:bg-primary hover:text-white;
+      @apply flex h-9 w-9 items-center justify-center rounded-full  border border-border dark:border-darkmode-border hover:border-primary hover:dark:border-primary border-opacity-20 hover:bg-primary hover:text-darkmode-text transition-all duration-300 ;
 
       i {
-        @apply text-lg;
+        @apply text-base;
       }
     }
   }
@@ -105,7 +89,7 @@
   .speaker-card-content {
     @apply flex flex-col mt-4;
     a {
-      @apply text-2xl mb-1;
+      @apply text-2xl mb-1 ;
     }
   }
   .other {
@@ -114,12 +98,7 @@
       @apply font-light text-dark dark:text-darkmode-text;
     }
   }
-  .icons {
-    @apply flex space-x-4;
-    a {
-      @apply bg-theme-light w-8 h-8 border border-gray-400 rounded-full flex justify-center items-center dark:bg-darkmode-theme-light hover:bg-primary hover:text-white text-sm hover:dark:bg-primary;
-    }
-  }
+  
 }
 
 .benefits-bg-img {
@@ -195,4 +174,19 @@
 }
 .sponsor-logo-effect:hover img {
   @apply grayscale-0;
+}
+.footer-links{
+  @apply justify-between;
+  h2{
+    @apply mb-4 xl:mb-8 text-2xl lg:text-xl font-normal leading-7 uppercase;
+  }
+  ul{
+    @apply flex flex-col uppercase text-sm;
+    li{
+      @apply my-3 inline-block ;
+      a{
+        @apply hover:text-primary transition duration-300;
+      }
+    }
+  }
 }
