@@ -17,13 +17,12 @@
   @include meta.load-css("utilities");
 }
 
-
-// social icons 
+// social icons
 .social-icons {
   @apply flex space-x-4;
   li {
     a {
-      @apply flex h-9 w-9 items-center justify-center rounded-full  border border-border dark:border-darkmode-border hover:border-primary hover:dark:border-primary border-opacity-20 hover:bg-primary hover:text-darkmode-text transition-all duration-300 ;
+      @apply flex h-9 w-9 items-center justify-center rounded-full  border border-border dark:border-darkmode-border hover:border-primary hover:dark:border-primary border-opacity-20 hover:bg-primary hover:text-darkmode-text transition-all duration-300;
 
       i {
         @apply text-base;
@@ -33,7 +32,7 @@
 }
 
 // section title
-.section-title {
+.section-header {
   @apply flex flex-col xl:flex-row justify-center xl:justify-between items-center xl:items-end pb-14 border-b border-b-border dark:border-darkmode-border;
   h2 {
     @apply text-h5 sm:text-h3 md:text-h1-sm uppercase xl:w-6/12 text-center xl:text-left mb-5 xl:mb-0 leading-tight md:leading-[85px];
@@ -89,7 +88,7 @@
   .speaker-card-content {
     @apply flex flex-col mt-4;
     a {
-      @apply text-2xl mb-1 ;
+      @apply text-2xl mb-1;
     }
   }
   .other {
@@ -98,7 +97,6 @@
       @apply font-light text-dark dark:text-darkmode-text;
     }
   }
-  
 }
 
 .benefits-bg-img {
@@ -114,13 +112,13 @@
 // sponsor logo
 .sponsor-logo {
   @apply block px-6 py-9 rounded-sm bg-theme-light dark:bg-darkmode-theme-light;
-  &:hover{
+  &:hover {
     img {
       @apply grayscale-0;
     }
   }
-  img{
-    @apply grayscale  transition  duration-300   w-[170px] object-contain; 
+  img {
+    @apply grayscale  transition  duration-300  w-[170px] object-contain;
   }
   div {
     @apply mt-10;
@@ -134,7 +132,7 @@
 }
 
 .active-table {
-  @apply text-primary dark:!text-white ;
+  @apply text-primary dark:!text-white;
 }
 
 .cto-bg {
@@ -161,7 +159,6 @@
     p {
       @apply text-lg font-light text-darkmode-light dark:text-light  mb-6;
     }
-    
   }
 }
 
@@ -175,16 +172,18 @@
 .sponsor-logo-effect:hover img {
   @apply grayscale-0;
 }
-.footer-links{
+
+// footer
+.footer-links {
   @apply justify-between;
-  h2{
+  h2 {
     @apply mb-4 xl:mb-8 text-2xl lg:text-xl font-normal leading-7 uppercase;
   }
-  ul{
+  ul {
     @apply flex flex-col uppercase text-sm;
-    li{
-      @apply my-3 inline-block ;
-      a{
+    li {
+      @apply my-3 inline-block;
+      a {
         @apply hover:text-primary transition duration-300;
       }
     }

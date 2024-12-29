@@ -1,8 +1,8 @@
 {
   "name": "conf-theme",
   "version": "1.0.0",
-  "description": "Conf Theme is a modern HTML template designed for conferences, events, and gatherings. Developed using Gulp and TailwindCSS, it ensures high performance and ease of use.",
-  "author": "Zeon Studio",
+  "description": "Conf Tailwind is a modern HTML template designed for conferences, events, and gatherings. Developed using Gulp and TailwindCSS, it ensures high performance and ease of use.",
+  "author": "Themefisher",
   "license": "MIT",
   "type": "module",
   "scripts": {

@@ -4,20 +4,19 @@
     <!-- Hero title start  -->
     <div class="row justify-center">
       <!-- Title  -->
-      <div class="text-center py-20 px-0">
-        <h1
-          class="text-[11vw] font-semibold "
-        >
+      <div class="text-center py-16 px-0">
+        <h1 class="text-[11vw] lg:text-[13vw] font-semibold">
           C<svg
-          class="fill-primary dark:fill-darkmode-primary inline-block mb-3 sm:mb-6 w-[10vw] px-1 sm:px-2"
-          viewBox="0 0 187 189"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M71.0391 189L75.1406 125.508L21.9844 161.109L0 122.391L57.2578 94.5L0 66.6094L21.9844 27.8906L75.1406 63.4922L71.0391 0H115.172L110.906 63.4922L164.062 27.8906L186.047 66.6094L128.953 94.5L186.047 122.391L164.062 161.109L110.906 125.508L115.172 189H71.0391Z"
-            fill="#FD5E09"
-          /></svg>NF-2024
+            class="fill-primary dark:fill-darkmode-primary inline-block mb-3 sm:mb-6 w-[10vw] px-1 sm:px-2"
+            viewBox="0 0 187 189"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M71.0391 189L75.1406 125.508L21.9844 161.109L0 122.391L57.2578 94.5L0 66.6094L21.9844 27.8906L75.1406 63.4922L71.0391 0H115.172L110.906 63.4922L164.062 27.8906L186.047 66.6094L128.953 94.5L186.047 122.391L164.062 161.109L110.906 125.508L115.172 189H71.0391Z"
+              class="fill-primary dark:fill-darkmode-primary"
+             
+            /></svg >NF-2024
         </h1>
       </div>
 
@@ -134,24 +133,21 @@
                 +/ Craft Trend
               </p>
             </div>
-          
           </div>
         </div>
       </div>
       <!-- Tickets slide end  -->
     </div>
     <!--  Hero Title end  -->
-
-  
   </div>
 </section>
 <!-- End Hero -->
 
 <!-- start banner -->
- <section>
+<section>
   <div class="container">
-      <!--   banner start -->
-      <div
+    <!--   banner start -->
+    <div
       class="row pl-0 mt-20 border-t border-t-border dark:border-darkmode-border flex-col-reverse lg:flex-row"
     >
       <!-- Text -->
@@ -347,7 +343,7 @@
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="12" cy="12" r="12" fill="#FD5E09" />
+                  <circle cx="12" cy="12" r="12" class="fill-primary dark:fill-darkmode-primary" />
                   <circle cx="36" cy="12" r="12" fill="white" />
                 </svg>
               </span>
@@ -379,14 +375,14 @@
     </div>
     <!--  Banner features End -->
   </div>
- </section>
+</section>
 <!-- End banner section -->
 
 <!-- Features section start -->
 <section class="section">
   <div class="container">
     <!-- Title -->
-    <div class="section-title">
+    <div class="section-header">
       <h2>All things to expect in Conf</h2>
       <p>
         Join us for an as we unveil the most exciting highlights at our upcoming
@@ -424,7 +420,7 @@
               experience.
             </p>
 
-            <a href="/speaker-single.html" class="btn btn-icon  mt-4 px-0">
+            <a href="/speaker-single.html" class="btn btn-icon mt-4 px-0">
               <span class="uppercase font-normal">Learn More</span>
               <i class="fa fa-arrow-right text-xs"></i>
             </a>
@@ -448,7 +444,7 @@
               chance to share ideas.
             </p>
 
-            <a href="/speaker-single.html" class="btn btn-icon  mt-4 px-0">
+            <a href="/speaker-single.html" class="btn btn-icon mt-4 px-0">
               <span class="uppercase font-normal">Learn More</span>
               <i class="fa fa-arrow-right text-xs"></i>
             </a>
@@ -472,7 +468,7 @@
               discussions to valuable knowledge.
             </p>
 
-            <a href="/speaker-single.html" class="btn btn-icon  mt-4 px-0">
+            <a href="/speaker-single.html" class="btn btn-icon mt-4 px-0">
               <span class="uppercase font-normal">Learn More</span>
               <i class="fa fa-arrow-right text-xs"></i>
             </a>
@@ -509,7 +505,7 @@
 <!-- Start Ticket section -->
 <section class="section">
   <div class="container">
-    <div class="section-title">
+    <div class="section-header">
       <h2>Get a ticket of your plan</h2>
       <p>
         Exploit the potential of the digital, we develop memorable websites and
@@ -543,7 +539,6 @@
             <span>View all speakers</span>
             <i class="fa fa-arrow-right text-xs"></i>
           </a>
-         
         </div>
       </div>
 
@@ -558,26 +553,30 @@
             <div
               class="md:border-r md:border-r-border dark:border-darkmode-border md:pr-7"
             >
-              @@include("components/speaker-card.html")
+              @@include("components/speaker-card.html",{ speakerName: "Allan Page", speakerImage: "/images/allan-page.png" })
             </div>
           </div>
           <!-- speaker-2 -->
           <div
             class="md:col-6 mb-10 md:border-b md:border-b-border dark:border-darkmode-border pb-10"
           >
-            <div class="md:pr-7">@@include("components/speaker-card.html")</div>
+            <div class="md:pr-7">
+              @@include("components/speaker-card.html",{ speakerName: "Chris Cayman", speakerImage: "/images/chris-cayman.png" })
+            </div>
           </div>
           <!-- speaker-3 -->
           <div class="md:col-6 mb-10">
             <div
               class="md:border-r md:border-r-border dark:border-darkmode-border md:pr-7"
             >
-              @@include("components/speaker-card.html")
+            @@include("components/speaker-card.html",{ speakerName: "Don Johnson", speakerImage: "/images/don-johnson.png" })
             </div>
           </div>
           <!-- speaker-4 -->
           <div class="md:col-6 mb-10">
-            <div class="md:pr-7">@@include("components/speaker-card.html")</div>
+            <div class="md:pr-7">
+            @@include("components/speaker-card.html",{ speakerName: "John Williams", speakerImage: "/images/jhon-williams.png" })
+            </div>
           </div>
         </div>
       </div>
@@ -589,11 +588,11 @@
 <!-- start events section -->
 <section class="section">
   <div class="container">
-    <div class="section-title">
+    <div class="section-header">
       <h2>3 day agenda with sessions</h2>
-     
-      <a href="/our-sponsors.html" class="btn btn-icon ">
-        <span >Learn Details</span>
+
+      <a href="/our-sponsors.html" class="btn btn-icon">
+        <span>Learn Details</span>
         <i class="fa fa-arrow-right text-xs"></i>
       </a>
     </div>
@@ -605,10 +604,10 @@
 <!-- Start sponsors section -->
 <section class="section">
   <div class="container border-b border-b-border dark:border-darkmode-border">
-    <div class="section-title mb-10">
+    <div class="section-header mb-10">
       <h2>Our Sponsors</h2>
       <a href="/our-sponsors.html" class="btn btn-icon">
-        <span >View all sponsors</span>
+        <span>View all sponsors</span>
         <i class="fa fa-arrow-right text-xs"></i>
       </a>
     </div>
@@ -620,8 +619,16 @@
           target="_blank"
           class="sponsor-logo-effect"
         >
-          <img src="/images/sponsor-logo-light-1.png" alt="sponsors-logo" class="block dark:hidden" />
-          <img src="/images/sponsor-logo-dark-1.png" alt="sponsors-logo" class="hidden dark:block" />
+          <img
+            src="/images/sponsor-logo-light-1.png"
+            alt="sponsors-logo"
+            class="block dark:hidden"
+          />
+          <img
+            src="/images/sponsor-logo-dark-1.png"
+            alt="sponsors-logo"
+            class="hidden dark:block"
+          />
         </a>
         <svg
           class="hidden lg:block absolute -bottom-7 -right-3"
@@ -726,8 +733,16 @@
           target="_blank"
           class="sponsor-logo-effect"
         >
-        <img src="/images/sponsor-logo-light-4.png" alt="sponsors-logo" class="block dark:hidden" />
-        <img src="/images/sponsor-logo-dark-4.png" alt="sponsors-logo" class="hidden dark:block" />
+          <img
+            src="/images/sponsor-logo-light-4.png"
+            alt="sponsors-logo"
+            class="block dark:hidden"
+          />
+          <img
+            src="/images/sponsor-logo-dark-4.png"
+            alt="sponsors-logo"
+            class="hidden dark:block"
+          />
         </a>
         <svg
           class="hidden lg:block absolute -bottom-7 -right-3"
@@ -797,8 +812,16 @@
           target="_blank"
           class="sponsor-logo-effect"
         >
-        <img src="/images/sponsor-logo-light-6.png" alt="sponsors-logo" class="block dark:hidden" />
-        <img src="/images/sponsor-logo-dark-6.png" alt="sponsors-logo" class="hidden dark:block" />
+          <img
+            src="/images/sponsor-logo-light-6.png"
+            alt="sponsors-logo"
+            class="block dark:hidden"
+          />
+          <img
+            src="/images/sponsor-logo-dark-6.png"
+            alt="sponsors-logo"
+            class="hidden dark:block"
+          />
         </a>
       </div>
       <!-- sponsor-7 -->
@@ -838,8 +861,16 @@
           target="_blank"
           class="sponsor-logo-effect"
         >
-        <img src="/images/sponsor-logo-light-10.png" alt="sponsors-logo" class="block dark:hidden" />
-        <img src="/images/sponsor-logo-dark-10.png" alt="sponsors-logo" class="hidden dark:block" />
+          <img
+            src="/images/sponsor-logo-light-10.png"
+            alt="sponsors-logo"
+            class="block dark:hidden"
+          />
+          <img
+            src="/images/sponsor-logo-dark-10.png"
+            alt="sponsors-logo"
+            class="hidden dark:block"
+          />
         </a>
       </div>
       <!-- sponsor-11 -->
@@ -859,8 +890,16 @@
           target="_blank"
           class="sponsor-logo-effect"
         >
-        <img src="/images/sponsor-logo-light-12.png" alt="sponsors-logo" class="block dark:hidden" />
-        <img src="/images/sponsor-logo-dark-12.png" alt="sponsors-logo" class="hidden dark:block" />
+          <img
+            src="/images/sponsor-logo-light-12.png"
+            alt="sponsors-logo"
+            class="block dark:hidden"
+          />
+          <img
+            src="/images/sponsor-logo-dark-12.png"
+            alt="sponsors-logo"
+            class="hidden dark:block"
+          />
         </a>
       </div>
     </div>
@@ -871,7 +910,7 @@
 <!-- Start Key benefits section -->
 <section class="section">
   <div class="container">
-    <div class="section-title">
+    <div class="section-header">
       <h2>Key benefits</h2>
       <p>
         Exploit the potential of the digital, we develop memorable websites and
@@ -892,7 +931,7 @@
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <circle cx="12" cy="12" r="12" fill="#FD5E09" />
+              <circle cx="12" cy="12" r="12" class="fill-primary dark:fill-darkmode-primary" />
               <circle cx="36" cy="12" r="12" fill="white" />
             </svg>
           </span>
@@ -916,7 +955,7 @@
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <circle cx="12" cy="12" r="12" fill="#FD5E09" />
+              <circle cx="12" cy="12" r="12" class="fill-primary dark:fill-darkmode-primary" />
               <circle cx="36" cy="12" r="12" fill="white" />
             </svg>
           </span>
@@ -940,7 +979,7 @@
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <circle cx="12" cy="12" r="12" fill="#FD5E09" />
+              <circle cx="12" cy="12" r="12" class="fill-primary dark:fill-darkmode-primary" />
               <circle cx="36" cy="12" r="12" fill="white" />
             </svg>
           </span>
@@ -961,11 +1000,11 @@
 <!-- start blog section -->
 <section class="section pb-20">
   <div class="container">
-    <div class="section-title">
+    <div class="section-header">
       <h2>Latest Articles</h2>
-     
+
       <a href="/our-sponsors.html" class="btn btn-icon">
-        <span >Read all blogs </span>
+        <span>Read all blogs </span>
         <i class="fa fa-arrow-right text-xs"></i>
       </a>
     </div>
@@ -973,15 +1012,15 @@
       <div
         class="md:col-6 lg:col-4 md:border-r px-4 xl:px-8 border-r-border dark:border-darkmode-border"
       >
-        @@include('components/blog-card.html')
+        @@include('components/blog-card.html',{ blogImage: "/images/blog-img-1.png" })
       </div>
       <div
         class="md:col-6 lg:col-4 px-4 xl:px-8 lg:border-r border-r-border dark:border-darkmode-border"
       >
-        @@include('components/blog-card.html')
+      @@include('components/blog-card.html',{ blogImage: "/images/blog-img-2.png" })
       </div>
       <div class="md:col-6 lg:col-4 px-4 xl:px-8">
-        @@include('components/blog-card.html')
+        @@include('components/blog-card.html',{ blogImage: "/images/blog-img-3.png" })
       </div>
     </div>
   </div>

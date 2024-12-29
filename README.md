@@ -1,11 +1,11 @@
-# Conf Theme
+# Conf Tailwind
 
-<h1 align="center">Conf Theme: Built with Gulp & Tailwind CSS</h1>
+<h1 align="center">Conf Tailwind: Built with Gulp & Tailwind CSS</h1>
 
-<p align="center">Conf Theme is a modern HTML template designed for conferences, events, and gatherings. Developed using Gulp and TailwindCSS, it ensures high performance and ease of use.</p>
+<p align="center">Conf Tailwind is a modern HTML template designed for conferences, events, and gatherings. Developed using Gulp and TailwindCSS, it ensures high performance and ease of use.</p>
 
 <h2 align="center">
-<a target="_blank" href="https://Conf Theme.netlify.app/" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-Conf Theme-netlify-app/1to2abs0qz?form_factor=desktop">Page Speed (95+)🚀</a>
+<a target="_blank" href="https://conf-theme-markup.vercel.app/" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https://conf-theme-markup.vercel.app/1to2abs0qz?form_factor=desktop">Page Speed (95+)🚀</a>
 </h2>
 
 ## 🚀 Getting Started
