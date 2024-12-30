@@ -121,7 +121,7 @@ const navMenuItems = document.querySelectorAll("#nav-menu li a");
 navMenuItems.forEach((item) => {
   let urlPath = window.location.pathname
   if (urlPath === item.pathname) {
-    item.classList.add("text-primary");
+    item.classList.add("text-primary dark:text-darkmode-primary");
   }
 
 })

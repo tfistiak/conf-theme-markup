@@ -12,9 +12,9 @@
 .btn-icon{
   @apply flex items-center space-x-2 ;
   &:hover{
-    @apply text-primary;
+    @apply text-primary dark:text-darkmode-primary;
     i{
-      @apply bg-primary dark:bg-primary;
+      @apply bg-primary dark:bg-darkmode-primary;
     }
   }
   i{
@@ -23,12 +23,12 @@
 }
 
 .btn-primary {
-  @apply bg-dark text-darkmode-dark dark:bg-darkmode-dark dark:text-dark hover:bg-primary hover:dark:bg-primary hover:text-darkmode-text hover:dark:text-darkmode-text ;
+  @apply bg-dark text-darkmode-dark dark:bg-darkmode-dark dark:text-dark hover:bg-primary hover:dark:bg-darkmode-primary hover:text-darkmode-text hover:dark:text-darkmode-text ;
 }
 
 
 .btn-primary-outline {
-  @apply border border-border dark:border-darkmode-border hover:bg-primary hover:dark:bg-primary hover:text-darkmode-text hover:dark:text-darkmode-text hover:border-primary hover:dark:border-primary;
+  @apply border border-border dark:border-darkmode-border hover:bg-primary hover:dark:bg-darkmode-primary hover:text-darkmode-text hover:dark:text-darkmode-text hover:border-primary hover:dark:border-darkmode-primary;
 
 }
 

@@ -22,7 +22,7 @@
   @apply flex space-x-4;
   li {
     a {
-      @apply flex h-9 w-9 items-center justify-center rounded-full  border border-border dark:border-darkmode-border hover:border-primary hover:dark:border-primary border-opacity-20 hover:bg-primary hover:text-darkmode-text transition-all duration-300;
+      @apply flex h-9 w-9 items-center justify-center rounded-full  border border-border dark:border-darkmode-border hover:border-primary hover:dark:border-darkmode-primary border-opacity-20 hover:bg-primary hover:dark:bg-darkmode-primary hover:text-darkmode-text transition-all duration-300;
 
       i {
         @apply text-base;
@@ -187,7 +187,7 @@
     li {
       @apply my-3 inline-block;
       a {
-        @apply hover:text-primary transition duration-300;
+        @apply hover:text-primary hover:dark:text-darkmode-primary transition duration-300;
       }
     }
   }

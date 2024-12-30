@@ -51,11 +51,11 @@ code {
 
 
 input[type='checkbox'] {
-  @apply appearance-none w-4 h-4 rounded-none border border-border !text-primary dark:border-darkmode-border  cursor-pointer transition-colors duration-300;
+  @apply appearance-none w-4 h-4 rounded-none border border-border !text-primary dark:text-darkmode-primary dark:border-darkmode-border  cursor-pointer transition-colors duration-300;
 }
 
 input[type='checkbox']:checked {
-  @apply bg-primary border-primary;
+  @apply bg-primary dark:bg-darkmode-primary border-primary dark:border-darkmode-primary;
 }
 
 input[type='checkbox']:focus {
